@@ -1,11 +1,14 @@
 /*CSS for T1A2 Portfolio Project*/
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
+    color: white;
+}
+p {
     color: white;
 }
 
@@ -17,12 +20,33 @@ header {
     justify-content: center;
     align-items: center;
 }
-#main-id {
+.image-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 100%;
+    padding: 15px;
+  }
+  .image {
+    flex-basis: 40%;
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+nav {
+    background-color: #456;
+    /* used for testing min-height: 80px;*/
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
 }
+
+
 #main-content {
     background-color:#678;
     min-height: 300px;
@@ -30,5 +54,9 @@ header {
 
 footer {
     background-color: #456;
-    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 80px;*/
 }
