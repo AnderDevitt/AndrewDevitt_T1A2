@@ -82,17 +82,28 @@ footer {
     align-items: center;
     /*padding: 30px;*/
 }
+.up-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  
+}
+.up-button a {
+  color: #DBE8D4;
+}
 .page-buttons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    
 }
 .bottom-button {
   color: #DBE8D4;
   
   border-radius: 10px;
-  margin: 5px;
+  margin: 15px;
 }
 /*.social-media img{
         
