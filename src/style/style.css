@@ -32,6 +32,8 @@ header {
     justify-content: center
   }
   img {
+    align-items: center;
+    justify-content: center
     max-width: 100%;
     padding: 15px;
   }
