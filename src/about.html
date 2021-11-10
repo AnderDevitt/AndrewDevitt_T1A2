@@ -2,30 +2,68 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <link rel="stylesheet" href="../src/style/style.css">
+        <!-- My stylesheet-->
+        <link rel="stylesheet" href="src/style/style.css">
+        <!--Load the icon library for my navigation links-->
         <script src="https://kit.fontawesome.com/c0fb676b03.js" crossorigin="anonymous"></script>
-        <title>Andrew Devitt Portfolio</title>
-
+        <!-- Load the icon library for the hamburger menu for phones-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Load the fonts for nav-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--Load fonts for headings and paragraphs-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        
+        <title>Andrew Devitt Portfolio - about</title>
     </head>
+
     <body>
         <a name="top"></a>
         
             <header>
-                <div class="image-text-container">
-                    <!--<div class="image">
+            <!--A container for anything above the nav bar-->
+            <div class="top-space">
+                <div class="image">
                         <img src="./src/images/my-image1.png">
-                    </div>-->
-                    <div class="text">
-                        <h1>About me</h1>
-                    </div>
                 </div>
-                <nav>
-                    <a href="../index.html"><i class="fas fa-home"></i><br>home</a>
-                    <a><i class="fas fa-user"></i><br>about</a>
-                    <a href="projects.html"><i class="fas fa-briefcase"></i><br>projects</a>
-                    <a href="blog.html"><i class="fas fa-blog"></i><br>blog</a>
-                    <a href="contact.html"><i class="fas fa-address-book"></i><br>contact</a>
-                </nav> 
+                <h1 class="page-title">Andrew Devitt</h1>
+                <h2 class="page-subtitle">-Web Developer</h2>    
+            </div>
+            <!--Top of page navigation: a horizontal nav bar for larger screens that shrinks to a hamburger menu on phones-->
+            <nav class="top-nav" id="my-top-nav">
+                    <a href="../index.html">
+                        <i class="fas fa-home"></i><br>Home
+                    </a>
+                    <a class="active"><!--the active link for this page-->
+                        <i class="fas fa-user"></i><br>About
+                    </a>
+                    <a href="src/projects.html">
+                        <i class="fas fa-briefcase"></i><br>Projects
+                    </a>
+                    <a href="src/blog.html">
+                        <i class="fas fa-blog"></i><br>Blog
+                    </a>
+                    <a href="src/contact.html">
+                        <i class="fas fa-address-book"></i><br>Contact
+                    </a>
+                    <a href="javascript:void(0);" class="burger-icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </nav>
+                <!--Javascript to run the hamburger menu: adds and removes the "responsive" class to top-nav when the user clicks on the hamburger menu icon-->
+                <script>
+                    /*Original code source https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+                    function myFunction() {
+                        var x = document.getElementById("my-top-nav");
+                        if (x.className === "top-nav") {
+                            x.className += "responsive";
+                        }
+                        else { 
+                            x.className = "top-nav";
+                        }    
+                    }
+                </script> 
             </header>
             <!--A container to hold the primary content for the page-->
             <div class="main-content">
@@ -33,16 +71,11 @@
                 
                 <p>I live and work in Brisbane, Australia, where I’m beginning my journey into web development as a full-stack developer. </p>
                 <br>
-                <h3>Education and work history</h3>
-                <p>I have always had an interest in computing, graduating originally from university with a Bachelor of Information Technology with streams in Systems Administration and Software Engineering.</p>
-                <p>Another passion has been languages – in particular Japanese. After university, I began a career in English education, and I lived and worked for 10 years in Japan. I have a Masters in Linguistics, English teaching credentials, and almost 20 years of teaching experience.</p>
-                <br>
-                <h3>Hobbies and interests</h3>
                 
+                <h3>Hobbies and interests</h3>
                 <p>My hobbies and interests include martial arts, swimming and scuba diving, board games, and photography. </p>
                 <img src="../src/images/kyudo3.jpg">
                 <p>I have studied and hold dan-rankings in taekwando, aikido and kyudo (Japanese archery), and have studied various other martial arts over the years. When in Japan, I enjoy participating in kyudo competitions and events as a part of the community.</p>
-               
             </div>
             
             <footer>
