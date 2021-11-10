@@ -1,26 +1,17 @@
 /*CSS for T1A2 Portfolio Project*/
 
 /*Text styling*/
-.page-title {
-  color: #DBE8D4;
-  font-family: 'Lobster', Georgia, Times, serif;
-  font-size: 70px;
-  line-height: 100px;
-}
-.page-subtitle {
-  color: #DBE8D4;
-  font-family: 'Lobster', Georgia, Times, serif;
-  font-size: 50px;
-  line-height: 80px;
-}
 h1 {
   color: #DBE8D4;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 h2 {
   color: #DBE8D4;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 h3 {
   color: #DBE8D4;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 p {
     color: #DBE8D4;
