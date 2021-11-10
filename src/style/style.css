@@ -83,7 +83,8 @@ header {
   text-align: center;
   padding: 14px 16px;
   font-size: 17px;
-  border-radius: 5px;
+  text-decoration: none;
+  /*border-radius: 5px;*/
 } 
 /*Change the link color when user hovers*/
 .top-nav a:hover {
@@ -168,9 +169,7 @@ footer {
 
 /*When the screen is less than 600px wide, hide all links except the "Home" and show the hamburger menu.*/
 @media screen and (max-width: 600px) {
-  .top-nav a:not(:first-child) {
-    display: none;
-  }
+  .top-nav a:not(:first-child) {display: none;}
   .top-nav a.burger-icon {
     float: right;
     display: block;
@@ -179,9 +178,7 @@ footer {
 
 /*When the user clicks the burger icon the "responsive" class is added to the top-nav with javascript. This will display the links vertically on small screens.*/
 @media screen and (max-width: 600px) {
-  .top-nav.responsive {
-    position: relative;
-  }
+  .top-nav.responsive {position: relative;}
   .top-nav.responsive a.burger-icon {
     position: absolute;
     right: 0;
