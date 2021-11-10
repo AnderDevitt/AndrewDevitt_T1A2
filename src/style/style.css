@@ -1,18 +1,17 @@
 /*CSS for T1A2 Portfolio Project*/
 
-@import url(//db.onlinewebfonts.com/c/ec5c4a829005d8491cc561b4cfa5dfa4?family=Zallord);
-
+/*Text styling*/
 h1 {
-    color: #DBE8D4;
-    font-family: 'Lobster', Georgia, Times, serif;
- font-size: 70px;
- line-height: 100px;
+  color: #DBE8D4;
+  font-family: 'Lobster', Georgia, Times, serif;
+  font-size: 70px;
+  line-height: 100px;
 }
 h2 {
   color: #DBE8D4;
   font-family: 'Lobster', Georgia, Times, serif;
- font-size: 70px;
- line-height: 100px;
+  font-size: 50px;
+  line-height: 80px;
 }
 h3 {
   color: #DBE8D4;
@@ -26,33 +25,35 @@ p {
     line-height: 25px;
 }
 
+/*Styling the header*/
 header {
     color: #DBE8D4;
     background-color: #222733;
-    display: flex;
-    flex-direction: column;
-   /* justify-content: center;
-    align-items: center;*/
     padding: 20px;
 }
+/*Style space above the nav bar*/
 .top-space {
+  display: flex;
   flex: 1 1 100%;
-    /* display: flex; */
-    /*align-items: center;
-    justify-content: center*/
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-shrink: 1;
   }
-  img {
-    /*align-items: center;
-    justify-content: center*/
+  /*img {
     max-width: 100%;
     padding: 15px;
-  }
+  }*/
+  /*May replace with logo or a background image*/
   .image {
+    max-width: 100%;
+    padding: 15px;
     flex: 1;
-    /* flex-basis: 40%; */
+    flex-basis: 30%;
   }
   .page-title {
-    flex: 1;
+    flex: 1 1;
     font-size: 5em;
     padding-left: 20px;
     padding-bottom: 5px;
@@ -66,46 +67,37 @@ header {
     padding-left: 40px;
     font-family: 'Comic Sans MS', cursive, sans-serif;
   }
+/*Add a background color to the nav bar to distinguish it*/  
 .top-nav {
-    /*min-width: 100%;
-    flex: 1 0 auto;
-    background-color: #456;*/
     background-color: /*#222733*/ #333;
     overflow: hidden;
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    align-items: center;  */
-}
+}    
+/*Style the links inside the nav bar*/
 .top-nav a {
-  /*flex: 0 0 18%;*/
   float: left;
   display: block;
   color: #DBE8D4;
   text-align: center;
   padding: 14px 16px;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* flex-direction: column; */
   font-size: 17px;
- 
   border-radius: 5px;
-  /* justify-content: space-between; */
 } 
+/*Change the link color when user hovers*/
 .top-nav a:hover {
   background-color: grey;
   color: black;
 }
+/*Adds an active class to highlight the current page - this may be redundent with titles*/
 .top-nav a.active {
   background-color: blueviolet;
   color: #DBE8D4;
 }
+/*Hides the hamburger menu when the screen is wider than 600px*/
 .top-nav .burger-icon {
   display: none;
 }
 
-
+/*Styles the main content areea for pages*/
 .main-content {
   background-color: #2E3445;
   display: flex;
@@ -148,7 +140,7 @@ footer {
   margin: 15px;
 }
 
-/*Media Breakpoints*/
+/*------------------------------Media Breakpoints----------------------------------*/
 
 /*When the screen is less than 600px wide, hide all links except the "Home" and show the hamburger menu.*/
 @media screen and (max-width: 600px) {
