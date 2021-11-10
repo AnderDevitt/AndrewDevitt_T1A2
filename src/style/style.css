@@ -1,17 +1,23 @@
 /*CSS for T1A2 Portfolio Project*/
 
 /*Text styling*/
-h1 {
+.page-title {
   color: #DBE8D4;
   font-family: 'Lobster', Georgia, Times, serif;
   font-size: 70px;
   line-height: 100px;
 }
-h2 {
+.page-subtitle {
   color: #DBE8D4;
   font-family: 'Lobster', Georgia, Times, serif;
   font-size: 50px;
   line-height: 80px;
+}
+h1 {
+  color: #DBE8D4;
+}
+h2 {
+  color: #DBE8D4;
 }
 h3 {
   color: #DBE8D4;
