@@ -110,6 +110,25 @@ header {
   max-height: 500px;
   max-width: 400px;
 }
+
+/*Styling for blog posts: use odd-posts and even-posts classes alternating for a difference between posts*/
+.even-posts {
+  border: orange 4px solid;
+  padding: 10px;
+  margin: 20px;
+}
+
+.odd-posts {
+  border: orange 4px dotted;
+  padding:10px;
+  margin: 20px;
+}
+.blog-pic {
+  width: 50%;
+  
+}
+
+/*Styling for the footer*/
 footer {
     color: #DBE8D4;
     background-color: #222733;

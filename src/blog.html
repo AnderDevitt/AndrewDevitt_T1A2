@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <!-- My stylesheet-->
+        <link rel="stylesheet" href="../src/style/style.css">
+        <!--Load the icon library for my navigation links-->
+        <script src="https://kit.fontawesome.com/c0fb676b03.js" crossorigin="anonymous"></script>
+        <!-- Load the icon library for the hamburger menu for phones-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Load the fonts for nav-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--Load fonts for headings and paragraphs-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        
+        <title>Andrew Devitt Portfolio - Blog</title>
+    </head>
+
+    <body>
+        <header name="top">
+            <!--A container for anything above the nav bar-->
+            <div class="top-space">
+                <h1 class="page-title">My Blog</h1>  
+            </div>
+            <!--Top of page navigation: a horizontal nav bar for larger screens that shrinks to a hamburger menu on phones-->
+            <nav class="top-nav" id="my-top-nav">
+                <a href="../index.html">
+                        <i class="fas fa-home"></i><br>Home
+                    </a>
+                    <a href="about.html">
+                        <i class="fas fa-user"></i><br>About
+                    </a>
+                    <a href="projects.html">
+                        <i class="fas fa-briefcase"></i><br>Projects
+                    </a>
+                    <a class="active"><!--the active link for this page-->
+                        <i class="fas fa-blog"></i><br>Blog
+                    </a>
+                    <a href="contact.html">
+                        <i class="fas fa-address-book"></i><br>Contact
+                    </a>
+                    <a href="javascript:void(0);" class="burger-icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </nav>
+                <!--Javascript to run the hamburger menu: adds and removes the "responsive" class to top-nav when the user clicks on the hamburger menu icon-->
+                <script>
+                    /*Original code source https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+                    function myFunction() {
+                        var x = document.getElementById("my-top-nav");
+                        if (x.className === "top-nav") {
+                            x.className += "responsive";
+                        }
+                        else { 
+                            x.className = "top-nav";
+                        }    
+                    }
+                </script> 
+            </header>
+
+            <!--A container to hold the primary content for the page-->
+            <div class="main-content">
+
+                <!--Blog post 10/11/2021-->
+                <section class="odd-posts">
+                    <h1>Learning through games</h1>
+                    <p><small>Published: 10/11/2021</small></p>
+                    <p>Some programming concepts are quite difficult to learn and the code syntax can take a very long time to memorize. It's not uncommon for coders to refer to cheat-sheets for a long time after learning a new skill.</p>
+                    <p>This is where coding games can come in to save the day. An engaging game that mixes task and challenge types and keeps you thinking can really make the necessary code repetition enjoyable while you practice.</p>
+                    <p>This week, I had fun getting to grips with <em>Flexbox</em> thanks to the amazing game <strong>Flexbox Zombies</strong>.</p>
+                    <h2>The good abut Flexbox Zombies</h2>
+                    <ul>
+                        <li>An entertaining story over 12 chapters</li>
+                        <li>Stylish and atmospheric comic art and animation</li>
+                        <li>Starts off easy with the basics of <em>Flexbox</em> commands</li>
+                        <li>Each chapter introduces a new comand and its relevant syntax</li>
+                        <li>Makes repetitive practice of commands <strong>fun!</strong></li>
+                        <li>The final chapter challenges you to defeat the evil villain <em>without help or clues!</em> How much did you remember?</li>
+                    </ul>
+                    <h2>The bad about Flexbox Zombies</h2>
+                    <ul>
+                        <li>The last three levels do seem to have some errors.<em>Or maybe thats just me</em></li>
+                        <li>If you don't get it when it's free, it'll cost you $179</li>
+                    </ul>
+                    <p>Visit the <a href="https://mastery.games/flexboxzombies/" target="_blank">Flexbox Zombies</a> and check it out!</p>
+                </section>
+
+                <!--Blog post 6/11/2021-->
+                <section class="even-posts">
+                    <h1>When the weather gets hot, the hot noodles get... cold</h1>
+                    <p><small>Published: 6/11/2021</small></p>
+                    <img src="./images/noodle-dinner.jpg" alt="Cold udon noodle dish" class="blog-pic">
+                    <p>Saori has been craving cold udon noodles... cold soba noodles... cold <em>remen noodles</em>...</p>
+                    <p>Nah... just kidding about the last one!</p>
+                    <p>But seriously, Japanese cuisine has some delicious cold noodle dishes available in the summer. They're actually easy to source ingredients for here in Australia too and easy to prepare!</p>
+                    <h2>Cold Udon Ingredients</h2>
+                    <ul>
+                        <li><strong>Udon noodles</strong> 1 small packet per person</li>
+                        <li><strong>Thinly sliced beef or pork</strong> from an Asian supermarket (optional ingredient)</li>
+                        <li><strong>Wakame seaweed</strong> from an Asian supermarket</li>
+                        <li><strong>Cherry or Roma tomatoes</strong> halved</li>
+                        <li><strong>Egg</strong> 1 for each person, hard-boiled or half-boiled and cut in hales</li>
+                        <li><strong>Japanese white dashi</strong> a type of broth</li>
+                        <li><strong>Toasted sesame seeds</strong> sprinkled on top before serving</li>
+                    </ul>
+            </div>
+
+            <!--the footer contains a secondary navigation, top button for large content pages, copyright info-->
+            <footer>
+                <div class="up-button">
+                    <a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a>      
+                </div>
+                <div class="page-buttons">
+                    <a class="bottom-button" ><i class="fas fa-home fa-2x"></i></a>
+                    <a  class="bottom-button" href="src/about.html"><i class="fas fa-user fa-2x"></i></a>
+                    <a  class="bottom-button" href="src/projects.html"><i class="fas fa-briefcase fa-2x"></i></a>
+                    <a  class="bottom-button" href="src/blog.html"><i class="fas fa-blog fa-2x"></i></a>
+                    <a  class="bottom-button" href="src/contact.html"><i class="fas fa-address-book fa-2x"></i></a>
+                </div>
+                <div>
+                    <p>&#169; Andrew Devitt 2021</p>
+                </div> 
+            </footer>
+        
+    </body>
+</html>
