@@ -37,23 +37,25 @@ header {
 /*Style space above the nav bar*/
 .top-space {
   display: flex;
-  flex: 1 1 100%;
-  flex-direction: row;
+  /*flex: 1 1 100%;*/
+  flex-flow: row wrap;
   justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  flex-shrink: 1;
+  align-items: center;
+  align-content: center;
+  /*flex-shrink: 1;*/
   }
   /*img {
     max-width: 100%;
     padding: 15px;
   }*/
   /*May replace with logo or a background image*/
-  .image {
-    max-width: 100%;
+  .top-space img {
+    flex-basis: 200px;
+    background-color: blue;
     padding: 15px;
     flex: 1;
-    flex-basis: 30%;
+    margin: 10px;
+    text-align: center;
   }
   .page-title {
     flex: 1 1;
