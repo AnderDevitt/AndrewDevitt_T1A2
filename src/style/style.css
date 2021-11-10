@@ -4,9 +4,15 @@
 
 h1 {
     color: #DBE8D4;
+    font-family: 'Lobster', Georgia, Times, serif;
+ font-size: 70px;
+ line-height: 100px;
 }
 h2 {
   color: #DBE8D4;
+  font-family: 'Lobster', Georgia, Times, serif;
+ font-size: 70px;
+ line-height: 100px;
 }
 h3 {
   color: #DBE8D4;
@@ -15,6 +21,9 @@ p {
     color: #DBE8D4;
     margin-left: 15px;
     margin-right: 15px;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 header {
@@ -47,8 +56,9 @@ header {
     font-size: 5em;
     padding-left: 20px;
     padding-bottom: 5px;
-    font-family: "Zallord", sans-serif;
-    align-self: center;
+    color: #DBE8D4;
+    font-family: 'Lobster', Georgia, Times, serif;
+    line-height: 100px;
   }
   .page-subtitle {
     flex: 1;
@@ -104,7 +114,10 @@ header {
   justify-content: center;
   /*min-height: 300px;*/
 }
-
+.content-image {
+  max-height: 500px;
+  max-width: 400px;
+}
 footer {
     color: #DBE8D4;
     background-color: #222733;
