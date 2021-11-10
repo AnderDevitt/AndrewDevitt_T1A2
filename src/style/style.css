@@ -120,8 +120,7 @@ header {
   margin: 5px;
   display: flex;
   flex-wrap: wrap;
-  font-size: 30px;
-  text-align: center;
+  text-align: flex-start;
 }
 .even-posts {
   border: orange 4px solid;
