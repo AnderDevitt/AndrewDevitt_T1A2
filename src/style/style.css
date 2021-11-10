@@ -190,6 +190,6 @@ footer {
   .top-nav.responsive a {
     float: none;
     display: block;
-    text-align: right;
+    text-align: left;
   }
 }
