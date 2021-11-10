@@ -51,7 +51,6 @@ header {
   /*May replace with logo or a background image*/
   .top-space img {
     flex-basis: 200px;
-    background-color: blue;
     margin: 15px;
     flex: 1;
     margin: 10px;
@@ -60,7 +59,6 @@ header {
   .page-title {
     flex-shrink: 1;
     font-size: 2em;
-    background-color: red;
     color: #DBE8D4;
     font-family: 'Lobster', Georgia, Times, serif;
     
@@ -68,7 +66,6 @@ header {
   .page-subtitle {
     flex: 1;
     margin-left: 10px;
-    background-color: green;
     font-size: 20px;
     font-family: 'Comic Sans MS', cursive, sans-serif;
   }
