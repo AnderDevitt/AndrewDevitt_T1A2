@@ -1,5 +1,7 @@
 /*CSS for T1A2 Portfolio Project*/
 
+@import url(//db.onlinewebfonts.com/c/ec5c4a829005d8491cc561b4cfa5dfa4?family=Zallord);
+
 h1 {
     color: #DBE8D4;
 }
@@ -42,14 +44,16 @@ header {
   }
   .page-title {
     flex: 1;
-    font-size: 20px;
+    font-size: 5em;
     padding-left: 20px;
-    font-family: 'Zen Kurenaido', sans-serif;
+    padding-bottom: 5px;
+    font-family: "Zallord", sans-serif;
+    align-self: center;
   }
   .page-subtitle {
     flex: 1;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 40px;
     font-family: 'Comic Sans MS', cursive, sans-serif;
   }
 .top-nav {
@@ -129,4 +133,34 @@ footer {
   color: #DBE8D4;
   border-radius: 10px;
   margin: 15px;
+}
+
+/*Media Breakpoints*/
+
+/*When the screen is less than 600px wide, hide all links except the "Home" and show the hamburger menu.*/
+@media screen and (max-width: 600px) {
+  .top-nav a:not(:first-child) {
+    display: none;
+  }
+  .top-nav a.burger-icon {
+    float: right;
+    display: block;
+  }
+}
+
+/*When the user clicks the burger icon the "responsive" class is added to the top-nav with javascript. This will display the links vertically on small screens.*/
+@media screen and (max-width: 600px) {
+  .top-nav.responsive {
+    position: relative;
+  }
+  .top-nav.responsive a.burger-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .top-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
 }
