@@ -21,6 +21,12 @@ p {
     font-size: 15px;
     line-height: 25px;
 }
+li {
+  color: #DBE8D4;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
 
 /*Styling the header*/
 header {
