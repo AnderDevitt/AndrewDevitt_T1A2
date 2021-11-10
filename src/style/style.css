@@ -117,7 +117,9 @@ header {
 /*Styling for blog posts: use odd-posts and even-posts classes alternating for a difference between posts*/
 .blog-posts {
   box-sizing: border-box;
-  margin: 5px;
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
   display: flex;
   flex-wrap: wrap;
   text-align: flex-start;
