@@ -139,9 +139,11 @@ header {
   /*margin: 20px;*/
 }
 .blog-pic {
-  /*width: 50%;*/
+  width: 30%;
+  padding: 20px;
   max-height: 500px;
   max-width: 400px;
+
   
 }
 
