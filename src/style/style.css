@@ -118,6 +118,7 @@ header {
 .blog-posts {
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   text-align: flex-start;
 }
