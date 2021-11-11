@@ -125,6 +125,7 @@ header {
   margin-top: 15px;
   margin-left: 20%;
   margin-right: 20%;
+  border: orange 4px solid;
   padding: 10px;
 }
 
@@ -291,6 +292,7 @@ footer {
     margin-top: 15px;
     margin-left: 15px;
     margin-right: 15px;
+    border: orange 4px solid;
     padding:10px;
   }
 }
