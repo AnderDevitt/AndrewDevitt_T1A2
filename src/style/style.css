@@ -1,6 +1,6 @@
 /*CSS for T1A2 Portfolio Project*/
 
-/*Text styling*/
+/*-------------------------------Text styling----------------------------------------*/
 h1 {
   color: orange;
   font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -28,7 +28,7 @@ li {
   line-height: 25px;
 }
 
-/*Styling the header*/
+/*------------------------Styling the header and top navigation-------------------------*/
 header {
     color: #DBE8D4;
     background-color: #222733;
@@ -44,10 +44,7 @@ header {
   align-content: center;
   /*flex-shrink: 1;*/
   }
-  /*img {
-    max-width: 100%;
-    padding: 15px;
-  }*/
+  
   /*May replace with logo or a background image*/
   .top-space img {
     flex-basis: 200px;
@@ -104,20 +101,16 @@ header {
   display: none;
 }
 
-/*Styles the main content areea for pages*/
+/*----------------------------Styles the main content area for pages-----------------------*/
 .main-content {
   background-color: #2E3445;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  /*min-height: 300px;*/
-}
-.content-image {
-  width: 50%;
 }
 
-/*Makes a container to format the main-contents and match to blog-posts layout without borders*/
+/*Non-blog content: border*/
 .shell {
   box-sizing: border-box;
   display: flex;
@@ -133,7 +126,12 @@ header {
   padding: 10px;
 }
 
-/*Styling for blog posts: use odd-posts and even-posts classes alternating for a difference between posts*/
+/*Style the social-media div on contact page*/
+.social-media {
+  display: flex;
+}
+
+/*Blog posts: change border between posts*/
 .blog-posts {
   box-sizing: border-box;
   display: flex;
@@ -158,11 +156,16 @@ header {
   padding:10px;
   /*margin: 20px;*/
 }
+
+/*---------------------------------Image styling------------------------------*/
+.content-image {
+  width: 50%;
+}
 .blog-pic {
   width: 50%;
 }
 
-/*Styling for the footer*/
+/*--------------------------Styling for the footer-----------------------------------*/
 footer {
     color: #DBE8D4;
     background-color: #222733;
@@ -193,7 +196,7 @@ footer {
   margin: 15px;
 }
 
-/*------------------------------Media Breakpoints----------------------------------*/
+/*--------------------------------------Media Breakpoints----------------------------------*/
 
 /*When the screen is less than 600px wide, hide all links except the "Home" and show the hamburger menu.*/
 @media screen and (max-width: 600px) {
