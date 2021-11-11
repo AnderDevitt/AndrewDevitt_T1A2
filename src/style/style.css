@@ -126,9 +126,21 @@ header {
   padding: 10px;
 }
 
-/*Style the social-media div on contact page*/
+/*Style the contact page contents*/
 .social-media {
   display: flex;
+}
+.email {
+
+}
+.email a:link{
+  color: blueviolet;
+}
+.email a:visited{
+  color: orange;
+}
+.email a:hover{
+  background-color: lightskyblue;
 }
 
 /*Blog posts: change border between posts*/
