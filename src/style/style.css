@@ -143,6 +143,7 @@ header {
   padding: 20px;
   max-height: 500px;
   max-width: 400px;
+  align-self: center;
 
   
 }
