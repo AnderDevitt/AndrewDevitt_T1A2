@@ -258,3 +258,22 @@ footer {
     text-align: left;
   }
 }
+
+/*Set the blog post margins closer to the edge of the screen on mobile displays*/
+@media screen and (max-width: 600px) {
+  .even-posts {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: orange 4px solid;
+    padding: 10px;
+  }
+  
+  .odd-posts {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: orange 4px dotted;
+    padding:10px;
+  }
+}
