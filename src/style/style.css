@@ -110,9 +110,7 @@ header {
   /*min-height: 300px;*/
 }
 .content-image {
-  /*max-height: 500px;
-  max-width: 400px;*/
-  width: 80%;
+  width: 50%;
 }
 
 /*Styling for blog posts: use odd-posts and even-posts classes alternating for a difference between posts*/
@@ -142,13 +140,6 @@ header {
 }
 .blog-pic {
   width: 50%;
-  padding: 20px;
-  /*max-height: 500px;
-  max-width: 400px;*/
-  align-self: center;
-  justify-content: center;
-
-  
 }
 
 /*Styling for the footer*/
@@ -279,5 +270,16 @@ footer {
     margin-right: 15px;
     border: orange 4px dotted;
     padding:10px;
+  }
+}
+
+/*Allow content and blog images to take up more space in containers on mobile displays*/
+@media screen and (max-width: 600px) {
+  .content-image {
+    width: 80%;
+  }
+
+  .blog-pic {
+    width: 80%;
   }
 }
