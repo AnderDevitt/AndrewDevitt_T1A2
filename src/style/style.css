@@ -114,12 +114,15 @@ header {
 }
 
 /*Makes a container to format the main-contents and match to blog-posts layout without borders*/
-.container {
+.shell {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   text-align: flex-start;
+}
+.contents {
+  margin-top: 15px;
   margin-left: 20%;
   margin-right: 20%;
   padding: 10px;
@@ -284,11 +287,12 @@ footer {
     padding:10px;
   }
 
-  /*.container {
+  .contents {
+    margin-top: 15px;
     margin-left: 15px;
-    margin-right: 15px%;
-    padding: 10px;
-  }*/
+    margin-right: 15px;
+    padding:10px;
+  }
 }
 
 /*Allow content and blog images to take up more space in containers on mobile displays*/
