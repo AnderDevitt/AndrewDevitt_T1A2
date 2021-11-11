@@ -113,6 +113,19 @@ header {
   width: 50%;
 }
 
+/*Makes a container to format the main-contents and match to blog-posts layout without borders*/
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: flex-start;
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px;
+}
+
 /*Styling for blog posts: use odd-posts and even-posts classes alternating for a difference between posts*/
 .blog-posts {
   box-sizing: border-box;
