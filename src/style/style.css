@@ -271,6 +271,9 @@ footer {
   }
 
   .contents {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 15px;
     margin-left: 15px;
     margin-right: 15px;
@@ -281,6 +284,7 @@ footer {
 /*Allow content and blog images to take up more space in containers on mobile displays*/
   .content-image {
     width: 80%;
+    align-self: center;
   }
 
   .blog-pic {
