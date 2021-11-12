@@ -1,22 +1,26 @@
 /*CSS for T1A2 Portfolio Project*/
 
-/*-------------------------------Text styling----------------------------------------*/
+
 * {
   box-sizing: border-box;
 }
 
+/*------------------------------------------------------------Text styling---------*/
 h1 {
   color: orange;
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
+
 h2 {
   color: orange;
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
+
 h3 {
   color: orange;
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
+
 p {
     color: #DBE8D4;
     margin-left: 15px;
@@ -25,6 +29,7 @@ p {
     font-size: 15px;
     line-height: 25px;
 }
+
 li {
   color: #DBE8D4;
   font-family: 'Cabin', Helvetica, Arial, sans-serif;
@@ -32,102 +37,127 @@ li {
   line-height: 25px;
 }
 
-/*------------------------Styling the header and top navigation-------------------------*/
-header {
-    color: #DBE8D4;
-    background-color: #222733;
-    padding: 20px;
-}
-/*Style space above the nav bar*/
-.top-space {
-  display: flex;
-  /*flex: 1 1 100%;*/
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  /*flex-shrink: 1;*/
-  }
-  
-  /*May replace with logo or a background image*/
-  .top-space img {
-    flex-basis: 200px;
-    margin: 15px;
-    flex: 1;
-    margin: 10px;
-    text-align: center;
-  }
-  .page-title {
-    flex-shrink: 1;
-    font-size: 2em;
-    color: #DBE8D4;
-    font-family: 'Lobster', Georgia, Times, serif;
-    
-  }
-  .page-subtitle {
-    flex: 1;
-    margin-left: 10px;
-    font-size: 20px;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-  }
+/*-----------------------------------------------Styling the header and top navigation-------*/
+            header {
+                color: #DBE8D4;
+                background-color: #222733;
+                padding: 20px;
+            }
 
-  /* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
+            /*Style space above the nav bar*/
+            .top-space {
+              display: flex;
+              flex-flow: row wrap;
+              justify-content: flex-start;
+              align-items: center;
+              align-content: center;
+            }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+            /*May replace with logo or a background image*/
+            .top-space img {
+              flex-basis: 200px;
+              margin: 15px;
+              flex: 1;
+              margin: 10px;
+              text-align: center;
+            }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+            .page-title {
+              flex-shrink: 1;
+              font-size: 2em;
+              color: #DBE8D4;
+              font-family: 'Lobster', Georgia, Times, serif;
+              
+            }
+            .page-subtitle {
+              flex: 1;
+              margin-left: 10px;
+              font-size: 20px;
+              font-family: 'Comic Sans MS', cursive, sans-serif;
+            }
 
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: blueviolet;
-  color: white;
-}
+            /* Add a black background color to the top navigation */
+            .topnav {
+              background-color: #333;
+              overflow: hidden;
+            }
 
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
-}
+            /* Style the links inside the navigation bar */
+            .topnav a {
+              float: left;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+
+            /* Change the color of links on hover */
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+
+            /* Add an active class to highlight the current page */
+            .topnav a.active {
+              background-color: blueviolet;
+              color: white;
+            }
+
+            /* Hide the link that should open and close the topnav on small screens */
+            .topnav .icon {
+              display: none;
+            }
 
 /*----------------------------Styles the main content area for pages-----------------------*/
-.main-content {
+.main-body-area {
   background-color: #2E3445;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
 }
 
 /*Non-blog content: border*/
-.shell {
-  box-sizing: border-box;
-  display: flex;
+/*.page-content-container {/*old shell & blog-post divs*/
+/*  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   text-align: flex-start;
-}
+}*/
 .contents {
   margin-top: 15px;
   margin-left: 20%;
   margin-right: 20%;
   border: orange 4px solid;
   padding: 10px;
+}
+
+/*Blog posts: change border between posts*/
+/*.blog-posts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: flex-start;
+}*/
+.even-posts {
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: orange 4px solid;
+  padding: 10px;
+  /*margin: 20px;*/
+}
+
+.odd-posts {
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: orange 4px dotted;
+  padding:10px;
+  /*margin: 20px;*/
 }
 
 /*Style the contact page contents*/
@@ -147,30 +177,7 @@ header {
   background-color: lightskyblue;
 }
 
-/*Blog posts: change border between posts*/
-.blog-posts {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: flex-start;
-}
-.even-posts {
-  margin-top: 15px;
-  margin-left: 20%;
-  margin-right: 20%;
-  border: orange 4px solid;
-  padding: 10px;
-  /*margin: 20px;*/
-}
 
-.odd-posts {
-  margin-top: 15px;
-  margin-left: 20%;
-  margin-right: 20%;
-  border: orange 4px dotted;
-  padding:10px;
-  /*margin: 20px;*/
-}
 
 /*---------------------------------Image styling------------------------------*/
 .content-image {
@@ -293,9 +300,32 @@ footer {
 
 /*---------on PC---------*/
 @media screen and (min-width: 601px) {
+  /*Set the blog-post and container margins closer to the edge of the screen on mobile displays*/
+  .even-posts {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: orange 4px solid;
+    padding: 10px;
+  }
   
-  .main-content {
-    min-width: 80%;
+  .odd-posts {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: orange 4px dotted;
+    padding:10px;
+  }
+
+  .contents {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: orange 4px solid;
+    padding:10px;
+  }
+  /*.main-content {
+    min-width: 80%;*/
   }
   .content-image {
     float: left;
