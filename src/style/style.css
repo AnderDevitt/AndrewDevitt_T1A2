@@ -133,6 +133,10 @@ li {
   margin-right: 20%;
   border: orange 4px solid;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: flex-start;
 }
 
 /*Blog posts: change border between posts*/
@@ -148,6 +152,10 @@ li {
   margin-right: 20%;
   border: orange 4px solid;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: flex-start;
   /*margin: 20px;*/
 }
 
