@@ -129,8 +129,8 @@ li {
 }*/
 .contents {
   margin-top: 15px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 300px;
+  margin-right: 300px;
   border: orange 4px solid;
   padding: 10px;
   display: flex;
