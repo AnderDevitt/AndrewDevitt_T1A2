@@ -149,7 +149,6 @@ header {
 
 /*Blog posts: change border between posts*/
 .blog-posts {
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -289,5 +288,22 @@ footer {
 
   .blog-pic {
     width: 80%;
+  }
+}
+
+/*---------on PC---------*/
+@media screen and (nin-width: 601px) {
+  .content-image {
+    float: left;
+    width: 40%;
+    padding-right: 15%;
+  }
+  .content-image img {
+    width: 100%;
+  }
+
+  .content-text {
+    float: left;
+    width: 60%;
   }
 }
