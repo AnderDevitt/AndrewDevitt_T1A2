@@ -293,6 +293,10 @@ footer {
 
 /*---------on PC---------*/
 @media screen and (nin-width: 601px) {
+  
+  .main-content {
+    min-width: 80%;
+  }
   .content-image {
     float: left;
     width: 40%;
