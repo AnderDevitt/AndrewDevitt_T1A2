@@ -124,30 +124,24 @@ li {
 }
 .main-content-area {
   margin: 15px;
+  padding: 20px;
+}
+.contents {
   border: orange 4px solid;
+  margin: 15px;
   padding: 20px;
 }
 
 .even-posts {
-  margin-top: 15px;
-  margin-left: 20%;
-  margin-right: 20%;
   border: orange 4px solid;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: flex-start;
-  /*margin: 20px;*/
+  margin: 15px;
+  padding: 20px;
 }
 
 .odd-posts {
-  margin-top: 15px;
-  margin-left: 20%;
-  margin-right: 20%;
   border: orange 4px dotted;
-  padding:10px;
-  /*margin: 20px;*/
+  margin: 15px;
+  padding:20px;
 }
 
 /*Style the contact page contents*/
