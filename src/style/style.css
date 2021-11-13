@@ -294,14 +294,14 @@ flex-wrap: wrap;
   /*that will shrink faster than the central area as size diminishes*/      
   .blank-side-area {
     background-color: #2E3445;
-    width: 0%; 
+    width: 0px; 
   }
   
   /*All main content on each page will display within this container.
   It will help control the overall positioning of everything within it*/
   .main-content-area {
     background-color: #2E3445;
-    width: 100%;
+    min-width: 100%;
     text-align: left;
     display: flex;
     flex-direction: column;
