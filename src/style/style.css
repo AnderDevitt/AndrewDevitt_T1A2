@@ -301,27 +301,47 @@ max-width: 100%;
     width: 0px; 
   }
   
+
+}
+
+/*When the screen is less than 600px wide*/
+@media screen and (max-width: 600px) {  
+  /*All main content on each page will display within this container.
+  It will help control the overall positioning of everything within it*/
+  /*------------------------------------------------------------Styling the main content area for pages--*/
+
+/*Overall container to hold and position the 
+3 main flex-containers for the middle of the page*/
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: DodgerBlue; /*For error checking only - should not display!*/
+  }
+  
+  /*flexible blank space down the left and right sides of the screen on larger screens
+  that will shrink faster than the central area as size diminishes*/      
+  .blank-side-area {
+  background-color: #2E3445;
+  flex-basis: 15%; 
+  flex-shrink: 2;
+  min-width: 0%;
+  }
+  
   /*All main content on each page will display within this container.
   It will help control the overall positioning of everything within it*/
   .main-content-area {
-    background-color: #2E3445;
-    min-width: 100%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+  background-color: #2E3445;
+  flex-basis: 70%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  max-width: 100%;
   }
-
-  /*Set the section and article container margins closer to the edge of the screen on mobile displays*/
-  .content-type-Solid {
-    margin-top: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: orange 4px solid;
-    padding: 5px;
-  }
-
+                                                            
   /*Allow content and blog images to take up more space in containers on mobile displays*/
   .content-image-center {
     width: 90%;
