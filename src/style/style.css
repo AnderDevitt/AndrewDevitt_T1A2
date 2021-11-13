@@ -1,314 +1,315 @@
-/*CSS for T1A2 Portfolio Project*/
+/*---------------------------------------------------------   AndrewDevitt_T1A2    --*/
 
 
 * {
   box-sizing: border-box;
 }
+ 
+/*----------------------------------------------------------- Style the body--------- */
+       body {
+         font-family: Arial, Helvetica, sans-serif;
+         margin: 0;
+       }
+ 
 
-/*------------------------------------------------------------Text styling---------*/
+/*------------------------------------------------------------Text styling-------------*/
 h1 {
-  color: orange;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+color: orange;
+font-family: 'Comic Sans MS', cursive, sans-serif;
+text-align: center;
 }
 
 h2 {
-  color: orange;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+color: orange;
+font-family: 'Comic Sans MS', cursive, sans-serif;
+text-align: center;
 }
 
 h3 {
-  color: orange;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+color: orange;
+font-family: 'Comic Sans MS', cursive, sans-serif;
+text-align: center;
 }
 
 p {
-    color: #DBE8D4;
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+ color: #DBE8D4;
+ font-family: 'Cabin', Helvetica, Arial, sans-serif;
+ text-align: justify;
+ font-size: 20px;
+ margin: 20px;
 }
 
 li {
-  color: #DBE8D4;
-  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+color: #DBE8D4;
+font-family: 'Cabin', Helvetica, Arial, sans-serif;
+text-align: justify;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 4px;
 }
 
-/*-----------------------------------------------Styling the header and top navigation-------*/
-            header {
-                color: #DBE8D4;
-                background-color: #222733;
-                padding: 20px;
-            }
 
-            /*Style space above the nav bar*/
-            .top-space {
-              display: flex;
-              flex-flow: row wrap;
-              justify-content: flex-start;
-              align-items: center;
-              align-content: center;
-            }
+/*------------------------------------------------------------Styling the header and top navigation--*/
+         header {
+             color: #DBE8D4;
+             background-color: #222733;
+             padding: 20px;
+         }
 
-            /*May replace with logo or a background image*/
-            .top-space img {
-              flex-basis: 200px;
-              margin: 15px;
-              flex: 1;
-              margin: 10px;
-              text-align: center;
-            }
+         /*Style space above the nav bar and arrange flex-items within*/
+         .top-space {
+           display: flex;
+           flex-flow: row wrap;
+           justify-content: flex-start;
+           align-items: center;
+           align-content: center;
+         }
 
-            .page-title {
-              flex-shrink: 1;
-              font-size: 2em;
-              color: #DBE8D4;
-              font-family: 'Lobster', Georgia, Times, serif;
-              
-            }
-            .page-subtitle {
-              flex: 1;
-              margin-left: 10px;
-              font-size: 20px;
-              font-family: 'Comic Sans MS', cursive, sans-serif;
-            }
+         /*Round image of my face on index page*/
+         .top-space img {
+           flex-basis: 200px;
+           margin: 15px;
+           flex: 1;
+           margin: 10px;
+           text-align: center;
+         }
 
-            /* Add a black background color to the top navigation */
-            .topnav {
-              background-color: #333;
-              overflow: hidden;
-            }
+         /*Changes between my name on index and page title other pages*/
+         .page-title {
+           flex-shrink: 1;
+           font-size: 2em;
+           color: #DBE8D4;
+           font-family: 'Lobster', Georgia, Times, serif;
+           
+         }
 
-            /* Style the links inside the navigation bar */
-            .topnav a {
-              float: left;
-              display: block;
-              color: #f2f2f2;
-              text-align: center;
-              padding: 14px 16px;
-              text-decoration: none;
-              font-size: 17px;
-            }
+         /*Index page only*/
+         .page-subtitle {
+           flex: 1;
+           margin-left: 10px;
+           font-size: 20px;
+           font-family: 'Comic Sans MS', cursive, sans-serif;
+         }
 
-            /* Change the color of links on hover */
-            .topnav a:hover {
-              background-color: #ddd;
-              color: black;
-            }
+         /*Following .topNav code from: Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+         /*Add a black background color to the top navigation */
+         .topnav {
+           background-color: #333;
+           overflow: hidden;
+         }
 
-            /* Add an active class to highlight the current page */
-            .topnav a.active {
-              background-color: blueviolet;
-              color: white;
-            }
+         /*Style the links inside the navigation bar */
+         .topnav a {
+           float: left;
+           display: block;
+           color: #DBE8D4;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+           font-size: 17px;
+         }
 
-            /* Hide the link that should open and close the topnav on small screens */
-            .topnav .icon {
-              display: none;
-            }
+         /*Change the color of links on hover */
+         .topnav a:hover {
+           background-color: whitesmoke;
+           color: black;
+         }
 
-/*----------------------------Styles the main content area for pages-----------------------*/
-.main-flex-container {
-  background-color: #2E3445;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /*justify-content: center;*/
+         /*Add an active class to highlight the current page */
+         .topnav a.active {
+           background-color: blueviolet;
+           color: white;
+         }
+
+         /*Hide the link that should open and close the topnav on small screens */
+         .topnav .icon {
+           display: none;
+         }
+ 
+/*------------------------------------------------------------Styling the main content area for pages--*/
+
+/*Overall container to hold and position the 
+3 main flex-containers for the middle of the page*/
+.flex-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-color: DodgerBlue; /*For error checking only - should not display!*/
 }
-.blank-side-spacing {
-  flex-basis: 15%;
+
+/*flexible blank space down the left and right sides of the screen on larger screens
+that will shrink faster than the central area as size diminishes*/      
+.blank-side-area {
+background-color: #2E3445;
+flex-basis: 15%; 
 }
+
+/*All main content on each page will display within this container.
+It will help control the overall positioning of everything within it*/
 .main-content-area {
-  /*margin: 15px;*/
-  border: orange 4px solid;
-  /*padding: 20px;*/
+background-color: #2E3445;
+flex-basis: 70%;
+text-align: left;
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
 }
+                                                           
+ 
+/*------------------------------------------------------------Styling the classes for the main content sections/articles and images--*/
 
-.even-posts {
-  margin-top: 15px;
-  margin-left: 20%;
-  margin-right: 20%;
-  border: orange 4px solid;
-  padding: 10px;
-  /*margin: 20px;*/
-}
+ 
+ /*Styling for my <section> and <artilce> content*/
+ /*Solid border*/
+ .content-type-Solid {
+   margin: 15px;
+   border: orange 4px solid;
+   width: 90%;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+ }  
 
-.odd-posts {
-  margin-top: 15px;
-  margin-left: 20%;
-  margin-right: 20%;
-  border: orange 4px dotted;
-  padding:10px;
-  /*margin: 20px;*/
-}
+ /*Styling the images aligned to the left of a container*/
+ .content-image-left {
+   margin: 20px;
+   max-width: 30%;
+   padding: 10px;
+   object-fit: contain;
+   align-self: flex-start; 
+ }
 
-/*Style the contact page contents*/
-.social-media {
-  display: flex;
-}
-.email {
+ /*Styling the images aligned to the center of a container*/
+ .content-image-center {
+   margin: 20px;
+   max-width: 30%;
+   padding: 10px;
+   object-fit: contain;
+   align-self: center; 
+ }
+                                                      
 
-}
-.email a:link{
-  color: blueviolet;
-}
-.email a:visited{
-  color: orange;
-}
-.email a:hover{
-  background-color: lightskyblue;
-}
+/*------------------------------------------------------------Styling for the footer---*/
+       
+       /*Styling for the footer area/container*/
+       footer {
+         color: #DBE8D4;
+         background-color: #222733;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+       }
+
+       /*Styles the arrow-button to take users to the top of the page*/
+       .up-button {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin: 10px;
+       }
+
+       /*Colours the arrow-button*/
+       .up-button a {
+         color: blueviolet;
+       }
+
+       /*Positions the bottom nav buttons*/
+       .page-buttons {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;   
+       }
+
+       /*Styling the bottom nav buttons*/
+       .bottom-nav {
+         color: #DBE8D4;
+         margin: 5px;
+         margin-left: 20px;
+         margin-right: 20px;
+       }
 
 
+       /*Change the color of links on hover */
+       .bottom-nav:hover {
+         color: grey;
+       }
 
-/*---------------------------------Image styling------------------------------*/
-.content-image {
-  width: 50%;
-}
-.blog-pic {
-  width: 50%;
-}
+ 
+ /*--------------------------------------Media Breakpoints----------------------------------*/
 
-/*--------------------------Styling for the footer-----------------------------------*/
-footer {
-    color: #DBE8D4;
-    background-color: #222733;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.up-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 15px;
-  
-}
-.up-button a {
-  color: #DBE8D4;
-}
-.page-buttons {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;   
-}
-.bottom-button {
-  color: #DBE8D4;
-  border-radius: 10px;
-  margin: 15px;
-}
+                                  /*------For Mobile-----*/
 
-/*--------------------------------------Media Breakpoints----------------------------------*/
-
-                                     /*------Mobile-----*/
-
-/*When the screen is less than 600px wide, hide all links except the "Home" and show the hamburger menu.*/
+/*When the screen is less than 600px wide*/
 @media screen and (max-width: 600px) {
-  .top-nav a:not(:first-child) {display: none;}
-  .top-nav a.burger-icon {
-    float: right;
-    display: block;
-  }
 
-  /*When the user clicks the burger icon the "responsive" class is added to the top-nav with javascript. This will display the links vertically on small screens.*/
-  .top-nav.responsive {position: relative;}
-  .top-nav.responsive a.burger-icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .top-nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+/*Hide all links except the "Home" and show the hamburger menu.*/
+.top-nav a:not(:first-child) {display: none;}
+.top-nav a.burger-icon {
+ float: right;
+ display: block;
+}
 
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
+/*When the user clicks the burger icon the "responsive" class is added to the top-nav with javascript.*/
+/* This will display the links vertically on small screens.*/
+.top-nav.responsive {position: relative;}
+.top-nav.responsive a.burger-icon {
+ position: absolute;
+ right: 0;
+ top: 0;
+}
+.top-nav.responsive a {
+ float: none;
+ display: block;
+ text-align: left;
+}
 
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+/*Hide all links on hrizontal navigation bar, except for the first one ("Home"). Show the (.icon) */
+.topnav a:not(:first-child) {display: none;}
+.topnav a.icon {
+ float: right;
+ display: block;
+}
 
-  /*Set the blog-post and container margins closer to the edge of the screen on mobile displays*/
-  .even-posts {
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border: orange 4px solid;
-    padding: 10px;
-  }
-  
-  .odd-posts {
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border: orange 4px dotted;
-    padding:10px;
-  }
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.*/ 
+/*This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+.topnav.responsive {position: relative;}
+.topnav.responsive a.icon {
+ position: absolute;
+ right: 0;
+ top: 0;
+}
+.topnav.responsive a {
+ float: none;
+ display: block;
+ text-align: left;
+}
 
-  .contents {
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border: orange 4px solid;
-    padding:10px;
-  }
+/*Set the blog-post and container margins closer to the edge of the screen on mobile displays*/
+.content-type-Solid {
+ margin-top: 15px;
+ margin-left: 15px;
+ margin-right: 15px;
+ border: orange 4px solid;
+ padding: 10px;
+}
+
+.content-type-dotted {
+ margin-top: 15px;
+ margin-left: 15px;
+ margin-right: 15px;
+ border: orange 4px dotted;
+ padding:10px;
+}
 
 /*Allow content and blog images to take up more space in containers on mobile displays*/
-  .content-image {
-    width: 80%;
-  }
-
-  .blog-pic {
-    width: 80%;
-  }
+.content-image-center {
+ max-width: 90%;
 }
 
-/*---------on PC---------*/
-@media screen and (min-width: 601px) {
-  /*Set the blog-post and container margins closer to the edge of the screen on mobile displays*/
-  .even-posts {
-    max-width: 85%;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border: orange 4px solid;
-    padding: 10px;
-  }
-  
-  .odd-posts {
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border: orange 4px dotted;
-    padding:10px;
-  }
-
-  .content-image {
-    float: left;
-    width: 40%;
-    padding-right: 15%;
-  }
-  .content-image img {
-    width: 100%;
-  }
-
-  .content-text {
-    float: left;
-    width: 60%;
-  }
+.content-image-left {
+ max-width: 90%;
+}
 }

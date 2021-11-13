@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
+        <!--Displays website title on browser tab-->
+        <title>Andrew Devitt Portfolio T1A2</title>
+
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
+
         <!-- My stylesheet-->
-        <link rel="stylesheet" href="./src/style/style.css">
-        <!--Load the icon library for my navigation links-->
+        <link rel="stylesheet" href="frame_style.css">
+        <!--<link rel="stylesheet" href="./src/style/style.css">-->
+
+        <!--Load the icon libraries for icons, fonts, hamburger menu-->
+        <!--Icons-->
         <script src="https://kit.fontawesome.com/c0fb676b03.js" crossorigin="anonymous"></script>
-        <!-- Load the icon library for the hamburger menu for phones-->
+        <!--Hamburger menu-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!--Load the fonts for nav-->
+        <!--Fonts for NAV-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!--Load fonts for headings and paragraphs-->
+        <!--Fonts for H and P-->
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-        
-        <title>Andrew Devitt Portfolio</title>
     </head>
 
-    <body>
-        <header name="top">
 
-            <!--A container for anything above the nav bar-->
+    <body>
+        
+        <header name="top"><!--Arrow-button at the bottom returns user to here-->
+            <!--A container for positioning anything above the nav bar-->
             <div class="top-space">
                 <div class="image">
                         <img src="./src/images/my-image1.png">
                 </div>
                 <h1 class="page-title">Andrew Devitt</h1>
-                <h2 class="page-subtitle">-Web Developer</h2>    
             </div>
 
             <!--Top of page navigation: a horizontal nav bar for larger screens that shrinks to a hamburger menu on phones-->
+            <!--Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
             <div class="topnav" id="myTopnav">
                 <a href="#home" class="active">Home</a>
                 <a href="src/about.html">About</a>
@@ -41,9 +49,10 @@
                   <i class="fa fa-bars"></i>
                 </a>
               </div>
+
             <!--Javascript to run the hamburger menu: adds and removes the "responsive" class to top-nav when the user clicks on the hamburger menu icon-->
-        
-           <script> /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+            <!--Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+           <script> 
                 function myFunction() {
                     var x = document.getElementById("myTopnav");
                     if (x.className === "topnav") {
@@ -55,57 +64,43 @@
             </script>
         </header>
 
+<div class="flex-container">
+    <div class="blank-side-area"></div>
+    <div class="main-content-area">
 
+        <!--content solid border-->
+        <section class="content-type-Solid">
+            <h1 class="page-title">Welcome to my Developer Portfolio page</h1>
+            <h2>You've found my portfolio! Have a look and follow my journey from teacher to web developer.</h2>
+            
+            <p>I recently started a coding bootcamp with Coder Academy Brisbane, and I'm loving learning to code. 
+                This portfolio site will grow as I progress through the course, so please come visit again and see the progress I'm making.</p>
+            <p>I'm happy for all comments and advice as my coding journey continues.</p>    
+             
+            <img class="content-image-center" src="./src/images/bw-face_800.JPG" alt="face of Andrew">
 
+        </section>
 
+    </div>
+    <div class="blank-side-area"></div>  
+</div>
 
-            <!--A flex container to arrange the page content into three columns-->
-            <div class="main-flex-container">
-                <div class="blank-side-spacing"></div>
-                <div class ="main-content-area">
+<!--the footer contains a secondary navigation, top button for large content pages, copyright info-->
+<footer>
+    <div class="up-button">
+        <a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a>      
+    </div>
+    <div class="page-buttons">
+        <a class="bottom-nav" ><i class="fas fa-home fa-2x"></i></a>
+        <a  class="bottom-nav" href="src/about.html"><i class="fas fa-user fa-2x"></i></a>
+        <a  class="bottom-nav" href="src/projects.html"><i class="fas fa-briefcase fa-2x"></i></a>
+        <a  class="bottom-nav" href="src/blog.html"><i class="fas fa-blog fa-2x"></i></a>
+        <a  class="bottom-nav" href="src/contact.html"><i class="fas fa-address-book fa-2x"></i></a>
+    </div>
+    <div>
+        <p>&#169; Andrew Devitt 2021</p>
+    </div> 
+</footer>
 
-                    <!--Editable Home page content goes here-->
-                    <section class="contents">
-                        <h2>Welcome</h2>
-                        <br>
-                        <img class="content-image" src="./src/images/bw-face_800.JPG" alt="face of Andrew">
-                        <div class="content-text">
-                            <p>You've found my portfolio! Have a look and follow my journey from teacher to web developer.</p>
-                            <br>
-                            <p>Do feel free to get in contact with me.</p>
-                            <p></p>
-                        </div>
-                    </section>
-                    <!--END of editable section-->
-                    
-                </div>
-                <div class="blank-side-spacing"></div>
-            </div>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <!--the footer contains a secondary navigation, top button for large content pages, copyright info-->
-            <footer>
-                <div class="up-button">
-                    <a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a>      
-                </div>
-                <div class="page-buttons">
-                    <a class="bottom-button" ><i class="fas fa-home fa-2x"></i></a>
-                    <a  class="bottom-button" href="src/about.html"><i class="fas fa-user fa-2x"></i></a>
-                    <a  class="bottom-button" href="src/projects.html"><i class="fas fa-briefcase fa-2x"></i></a>
-                    <a  class="bottom-button" href="src/blog.html"><i class="fas fa-blog fa-2x"></i></a>
-                    <a  class="bottom-button" href="src/contact.html"><i class="fas fa-address-book fa-2x"></i></a>
-                </div>
-                <div>
-                    <p>&#169; Andrew Devitt 2021</p>
-                </div> 
-            </footer>
-        
-    </body>
+</body>
 </html>
