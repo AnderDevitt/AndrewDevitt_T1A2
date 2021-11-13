@@ -48,11 +48,11 @@
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                   <i class="fa fa-bars"></i>
                 </a>
-              </div>
+            </div>
 
             <!--Javascript to run the hamburger menu: adds and removes the "responsive" class to top-nav when the user clicks on the hamburger menu icon-->
             <!--Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
-           <script> 
+            <script> 
                 function myFunction() {
                     var x = document.getElementById("myTopnav");
                     if (x.className === "topnav") {
@@ -64,43 +64,51 @@
             </script>
         </header>
 
-<div class="flex-container">
-    <div class="blank-side-area"></div>
-    <div class="main-content-area">
+        <!--A flex container to arrange the page content into three columns-->
+        <div class="flex-container">
+            <!--Create adjustible blank space on the sides of the page on larger screens and disappear on phones-->    
+            <div class="blank-side-area"></div>
+                <!--The container to hold all EDITABLE sections and articles within-->
+                <div class="main-content-area">
 
-        <!--content solid border-->
-        <section class="content-type-Solid">
-            <h1 class="page-title">Welcome to my Developer Portfolio page</h1>
-            <h2>You've found my portfolio! Have a look and follow my journey from teacher to web developer.</h2>
+                    <!--  EDIT BELOW HERE TO CHANGE CONTENTS BUT NOT PAGE STYLING AND LAYOUT  -->
+
+                    <!--content solid border-->
+                    <section class="content-type-Solid">
+                        <h1 class="page-title">Welcome to my Developer Portfolio page</h1>
+                        <h2>You've found my portfolio! Have a look and follow my journey from teacher to web developer.</h2>
             
-            <p>I recently started a coding bootcamp with Coder Academy Brisbane, and I'm loving learning to code. 
-                This portfolio site will grow as I progress through the course, so please come visit again and see the progress I'm making.</p>
-            <p>I'm happy for all comments and advice as my coding journey continues.</p>    
+                        <p>I recently started a coding bootcamp with Coder Academy Brisbane, and I'm loving learning to code. 
+                            This portfolio site will grow as I progress through the course, so please come visit again and see the progress I'm making.</p>
+                        <p>I'm happy for all comments and advice as my coding journey continues.</p>    
              
-            <img class="content-image-center" src="./src/images/bw-face_800.JPG" alt="face of Andrew">
+                        <img class="content-image-center" src="./src/images/bw-face_800.JPG" alt="face of Andrew">
 
-        </section>
+                    </section>
 
-    </div>
-    <div class="blank-side-area"></div>  
-</div>
+                    <!--  END OF EDITABLE CONTENT AREA  -->
+                </div>
+            <div class="blank-side-area"></div>  
+        </div>
 
-<!--the footer contains a secondary navigation, top button for large content pages, copyright info-->
-<footer>
-    <div class="up-button">
-        <a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a>      
-    </div>
-    <div class="page-buttons">
-        <a class="bottom-nav" ><i class="fas fa-home fa-2x"></i></a>
-        <a  class="bottom-nav" href="src/about.html"><i class="fas fa-user fa-2x"></i></a>
-        <a  class="bottom-nav" href="src/projects.html"><i class="fas fa-briefcase fa-2x"></i></a>
-        <a  class="bottom-nav" href="src/blog.html"><i class="fas fa-blog fa-2x"></i></a>
-        <a  class="bottom-nav" href="src/contact.html"><i class="fas fa-address-book fa-2x"></i></a>
-    </div>
-    <div>
-        <p>&#169; Andrew Devitt 2021</p>
-    </div> 
-</footer>
-
-</body>
+        <!--the footer contains a secondary navigation, top button for large content pages, copyright info-->
+        <footer>
+            <!--Creates a button to return users t the top of the page without scrolling-->
+            <div class="up-button">
+                <a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a>      
+            </div>
+            <!--Creates icon buttons for a user to navigate to pages from the bottom of the screen-->
+            <div class="page-buttons">
+                <a class="bottom-nav" ><i class="fas fa-home fa-2x"></i></a>
+                <a  class="bottom-nav" href="src/about.html"><i class="fas fa-user fa-2x"></i></a>
+                <a  class="bottom-nav" href="src/projects.html"><i class="fas fa-briefcase fa-2x"></i></a>
+                <a  class="bottom-nav" href="src/blog.html"><i class="fas fa-blog fa-2x"></i></a>
+                <a  class="bottom-nav" href="src/contact.html"><i class="fas fa-address-book fa-2x"></i></a>
+            </div>
+            <!--Copyright information-->
+            <div>
+                <p>&#169; Andrew Devitt 2021</p>
+            </div> 
+        </footer>
+    </body>
 </html>

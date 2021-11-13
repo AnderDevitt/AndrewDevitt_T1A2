@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
+        <!--Displays website title on browser tab-->
+        <title>Andrew Devitt Portfolio T1A2 - About Me</title>
+
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
+
         <!-- My stylesheet-->
-        <link rel="stylesheet" href="../src/style/style.css">
-        <!--Load the icon library for my navigation links-->
+        <!--<link rel="stylesheet" href="frame_style.css">-->
+        <link rel="stylesheet" href="./src/style/style.css">
+
+        <!--Load the icon libraries for icons, fonts, hamburger menu-->
+        <!--Icons-->
         <script src="https://kit.fontawesome.com/c0fb676b03.js" crossorigin="anonymous"></script>
-        <!-- Load the icon library for the hamburger menu for phones-->
+        <!--Hamburger menu-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!--Load the fonts for nav-->
+        <!--Fonts for NAV-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!--Load fonts for headings and paragraphs-->
+        <!--Fonts for H and P-->
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-        
-        <title>Andrew Devitt Portfolio - about</title>
     </head>
 
     <body>
-        <header name="top">
-            <!--A container for anything above the nav bar-->
+        <header name="top"><!--Arrow-button at the bottom returns user to here-->
+            <!--A container for positioning anything above the nav bar-->
             <div class="top-space">
-                <h1 class="page-title">About me</h1>  
+                <h1 class="page-title">Andrew Devitt</h1>
             </div>
             
             <!--Top of page navigation: a horizontal nav bar for larger screens that shrinks to a hamburger menu on phones-->
+            <!--Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
             <div class="topnav" id="myTopnav">
                 <a href="../index.html" >Home</a>
                 <a href="#about.html" class="active">About</a>
@@ -36,9 +44,10 @@
                   <i class="fa fa-bars"></i>
                 </a>
               </div>
-            <!--Javascript to run the hamburger menu: adds and removes the "responsive" class to top-nav when the user clicks on the hamburger menu icon-->
-        
-           <script> /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+
+             <!--Javascript to run the hamburger menu: adds and removes the "responsive" class to top-nav when the user clicks on the hamburger menu icon-->
+            <!--Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+            <script> 
                 function myFunction() {
                     var x = document.getElementById("myTopnav");
                     if (x.className === "topnav") {
@@ -48,57 +57,100 @@
                     }
                 }
             </script>
-            </header>
+        </header>
 
+        <!--A flex container to arrange the page content into three columns-->
+        <div class="flex-container">
+            <!--Create adjustible blank space on the sides of the page on larger screens and disappear on phones-->    
+            <div class="blank-side-area"></div>
+                <!--The container to hold all EDITABLE sections and articles within-->
+                <div class="main-content-area">
 
-
-
-
-            <!--A flex container to arrange the page content into three columns-->
-            <div class="main-flex-container">
-                <div class="blank-side-spacing"></div>
-                <div class ="main-content-area">
-
-                    <!--Editable About page content goes here-->
-                    <section class="contents">
-                        <h2>Who is Andrew Devitt?</h2>
-                        
-                        <p>I live and work in Brisbane, Australia, where I’m beginning my journey into web development as a full-stack developer. </p>
-                        <br>
-                        
-                        <h3>Hobbies and interests</h3>
-                        <p>My hobbies and interests include martial arts, swimming and scuba diving, board games, and photography. </p>
-                        <img class="content-image" src="../src/images/kyudo3_800.jpg">
-                        <p>I have studied and hold dan-rankings in taekwando, aikido and kyudo (Japanese archery), and have studied various other martial arts over the years. When in Japan, I enjoy participating in kyudo competitions and events as a part of the community.</p>
-                    </section>
-                    <!--END of editable section-->
-
-                </div>
-                <div class="blank-side-spacing"></div>
-            </div>
-
-            
-
-
-
-
-
-            <footer>
-                <div class="up-button">
-                    <a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a>      
-                </div>  
-                <div class="page-buttons">
-                    <a class="bottom-button" href="../index.html"><i class="fas fa-home fa-2x"></i></a>
-                    <a class="bottom-button" ><i class="fas fa-user fa-2x"></i></a>
-                    <a class="bottom-button"  href="projects.html"><i class="fas fa-briefcase fa-2x"></i></a>
-                    <a class="bottom-button" href="blog.html"><i class="fas fa-blog fa-2x"></i></a>
-                    <a class="bottom-button" href="contact.html"><i class="fas fa-address-book fa-2x"></i></a>
-                </div>
-                    
-                <div>    
-                    <p>&#169; Andrew Devitt 2021</p>
-                </div>
-            </footer>
+                    <!--  EDIT BELOW HERE TO CHANGE CONTENTS BUT NOT PAGE STYLING AND LAYOUT  -->
         
-    </body>
+                <!--content solid border-->
+                <section class="content-type-Solid">
+                    <h1 class="page-title">Who is Andrew Devitt</h1>
+
+                    <!--Introduction-->
+                    <article>
+                    <p>I live and work in Brisbane, Australia, where I’m beginning my journey into web development as a full-stack developer. </p>
+                
+                    <p>I recently started a coding bootcamp with Coder Academy Brisbane, and I'm loving learning to code. 
+                        This portfolio site will grow as I progress through the course, so please come visit again and see the progress I'm making.</p>
+                    
+                    <p>I'm happy for all comments and advice as my coding journey continues.</p>    
+                    </article>
+
+                    <!--Work history-->
+                    <article>
+                        <h2>Work History</h2>
+                        <p>My first career was as a cinema employee where I worked for many years. I filled many roles, 
+                            from Usher and candybar sales, to Duty Manager and Workplace Health and Safety Officer.
+                            However, my favourite cinema position was Projectionist. I took a great deal of pride in putting 
+                            together the films and running them with care.</p>
+                        <p>Since 2003, my primary career has been as an English Language Teacher. I have taught at schools in Australia and Japan. I lived in Japan for almost 10 years and love the country very much.</p>
+                        <br>
+                        <p>Read more in my resume here.</p>
+                    </article>
+
+                    <!--Study history-->
+                    <article>
+                        <h2>Study History</h2>
+                        <h3>Courses and Certificates</h3>
+                        <p>Below are the courses and certificates I have studied or obtained.</p>
+                        <ul>
+                            <li><b>Bachelor of Information Technology</b> - 2002</li>
+                            <li><b>CELTA</b> - 2010</li>
+                            <li><b>Certificate as a Workplace Health and Safety Officer</b> - 2010</li>
+                            <li><b>Master of Linguistics</b> - 2017</li>
+                        </ul>
+                        <h3>Awards</h3>
+                        <ul>
+                            <li><b>JET Kizuna Ambassador</b> - 2016</li>
+                        </ul>
+                    </article>
+
+                    <!--Interests-->
+                    <article>
+                        <h2>Hobbies and Interests</h2>
+
+                        <p>I have enjoyed martial arts all of my life. From Taekwando and Aikido through my childhood and early adulthood, 
+                            to Japanese archery (Aikido) and swordsmanship. I hold various levels of attainment and in the past was an instructor 
+                            of Taekwando and an assistant instructor in Aikido. I have been on Japanese national TV multiple times due 
+                            to my archery training. (and for my teacher's amusement)</p>
+                        <p>I also enjoy reading, learning languages, and playing adventure boardgames with 
+                            friends. <i>Don't try to get me to play Monopoly...please.</i></p>
+                        <br>
+                        <p>Oh... and did I mention that I can fly light aircraft? </p>
+                    </article>
+
+
+                </section>
+        
+                <!--  END OF EDITABLE CONTENT AREA  -->
+            </div>
+        <div class="blank-side-area"></div>  
+    </div>
+
+    <!--the footer contains a secondary navigation, top button for large content pages, copyright info-->
+    <footer>
+        <!--Creates a button to return users t the top of the page without scrolling-->
+        <div class="up-button">
+            <a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a>      
+        </div>
+        <!--Creates icon buttons for a user to navigate to pages from the bottom of the screen-->
+        <div class="page-buttons">
+            <a class="bottom-nav" ><i class="fas fa-home fa-2x"></i></a>
+            <a  class="bottom-nav" href="src/about.html"><i class="fas fa-user fa-2x"></i></a>
+            <a  class="bottom-nav" href="src/projects.html"><i class="fas fa-briefcase fa-2x"></i></a>
+            <a  class="bottom-nav" href="src/blog.html"><i class="fas fa-blog fa-2x"></i></a>
+            <a  class="bottom-nav" href="src/contact.html"><i class="fas fa-address-book fa-2x"></i></a>
+        </div>
+        <!--Copyright information-->
+        <div>
+            <p>&#169; Andrew Devitt 2021</p>
+        </div> 
+    </footer>
+</body>
 </html>
