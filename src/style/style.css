@@ -142,6 +142,7 @@ that will shrink faster than the central area as size diminishes*/
 .blank-side-area {
 background-color: #2E3445;
 flex-basis: 15%; 
+flex-shrink: 2;
 }
 
 /*All main content on each page will display within this container.
@@ -154,6 +155,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 flex-wrap: wrap;
+flex-grow: 1;
 }
                                                            
  
