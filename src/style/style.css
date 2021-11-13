@@ -325,7 +325,7 @@ max-width: 100%;
   background-color: #2E3445;
   flex-basis: 0%; 
   flex-shrink: 2;
-  min-width: 0%;
+  max-width: 0%;
   }
   
   /*All main content on each page will display within this container.
