@@ -141,7 +141,7 @@ background-color: DodgerBlue; /*For error checking only - should not display!*/
 that will shrink faster than the central area as size diminishes*/      
 .blank-side-area {
 background-color: #2E3445;
-flex-basis: 15%; 
+/*flex-basis: 15%;*/ 
 flex-shrink: 2;
 min-width: 0%;
 }
