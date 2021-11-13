@@ -28,7 +28,7 @@ text-align: center;
 h3 {
 color: orange;
 font-family: 'Cabin', Helvetica, Arial, sans-serif;
-text-align: justify;
+/*text-align: justify;*/
 }
 
 p {
@@ -39,7 +39,7 @@ p {
  /*margin: 20px;*/
 }
 
-li {
+/*li {
   color: #DBE8D4;
   font-family: 'Cabin', Helvetica, Arial, sans-serif;
   text-align: justify;
