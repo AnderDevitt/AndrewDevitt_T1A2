@@ -287,6 +287,25 @@ flex-wrap: wrap;
  text-align: left;
 }
 
+
+/*flexible blank space down the left and right sides of the screen on larger screens
+that will shrink faster than the central area as size diminishes*/      
+.blank-side-area {
+  background-color: #2E3445;
+  flex-basis: 0%; 
+  }
+  
+  /*All main content on each page will display within this container.
+  It will help control the overall positioning of everything within it*/
+  .main-content-area {
+  background-color: #2E3445;
+  flex-basis: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  }
 /*Set the blog-post and container margins closer to the edge of the screen on mobile displays*/
 .content-type-Solid {
  margin-top: 15px;
