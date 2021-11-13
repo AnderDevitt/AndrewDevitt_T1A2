@@ -13,45 +13,65 @@
  
 
 /*------------------------------------------------------------Text styling-------------*/
-h1 {
-color: orange;
-font-family: 'Comic Sans MS', cursive, sans-serif;
-text-align: center;
-font-size: 1.25em;
-margin-left: 20px;
-}
+  h1 {
+    color: orange;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+    margin-left: 20px;
+  }
 
-h2 {
-color: orange;
-font-family: 'Comic Sans MS', cursive, sans-serif;
-text-align: center;
-font-size: 1.25em;
-margin-left: 20px;
-}
+  h2 {
+    color: orange;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+    margin-left: 20px;
+  }
 
-h3 {
-color: orange;
-font-family: 'Cabin', Helvetica, Arial, sans-serif;
-font-size: 1.25em;
-margin-left: 20px;
-/*text-align: justify;*/
-}
+  h3 {
+    color: orange;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+    margin-left: 20px;
+  }
 
-p {
- color: #DBE8D4;
- font-family: 'Cabin', Helvetica, Arial, sans-serif;
- text-align: justify;
- font-size: 1.25em;
- margin: 20px;
-}
+  p {
+    color: #DBE8D4;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-size: 1.25em;
+    margin: 20px;
+  }
 
-li {
-  color: #DBE8D4;
-  font-family: 'Cabin', Helvetica, Arial, sans-serif;
-  text-align: justify;
-  font-size: 1.25em;
-  margin-left: 20px;
-}
+  li {
+    color: #DBE8D4;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-size: 1.25em;
+    margin-left: 20px;
+  }
+
+  figure {
+    padding: 4px;
+    margin: auto;
+    width: 60%
+  }
+
+  figcaption {
+    background-color: black;
+    color: #DBE8D4;
+    font-style: italic;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+
 
 
 /*------------------------------------------------------------Styling the header and top navigation--*/
@@ -133,70 +153,88 @@ li {
  
 /*------------------------------------------------------------Styling the main content area for pages--*/
 
-/*Overall container to hold and position the 
-3 main flex-containers for the middle of the page*/
-.flex-container {
-display: flex;
-flex-direction: row;
-justify-content: center;
-background-color: DodgerBlue; /*For error checking only - should not display!*/
-}
+  /*Overall container to hold and position the 
+  3 main flex-containers for the middle of the page*/
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: DodgerBlue; /*For error checking only - should not display!*/
+  }
 
-/*flexible blank space down the left and right sides of the screen on larger screens
-that will shrink faster than the central area as size diminishes*/      
-.blank-side-area {
-background-color: #2E3445;
-flex-basis: 0%;
-flex-shrink: 2;
-min-width: 0%;
-}
+  /*flexible blank space down the left and right sides of the screen on larger screens
+  that will shrink faster than the central area as size diminishes*/      
+  .blank-side-area {
+    background-color: #2E3445;
+    flex-basis: 0%;
+    flex-shrink: 2;
+    min-width: 0%;
+  }
 
-/*All main content on each page will display within this container.
-It will help control the overall positioning of everything within it*/
-.main-content-area {
-background-color: #2E3445;
-flex-basis: 100%;
-text-align: left;
-display: flex;
-flex-direction: column;
-align-items: center;
-flex-wrap: wrap;
-flex-grow: 5;
-max-width: 100%;
-}
+  /*All main content on each page will display within this container.
+  It will help control the overall positioning of everything within it*/
+  .main-content-area {
+    background-color: #2E3445;
+    flex-basis: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 5;
+    max-width: 100%;
+  }
                                                            
  
 /*------------------------------------------------------------Styling the classes for the main content sections/articles and images--*/
 
  
- /*Styling for my <section> and <artilce> content*/
- /*Solid border*/
- .content-type-Solid {
-   margin: 15px;
-   border: orange 4px solid;
-   width: 90%;
-   padding: 10px;
-   display: flex;
-   flex-direction: column;
- }  
+  /*Styling for my <section> and <artilce> content*/
 
- /*Styling the images aligned to the left of a container*/
- .content-image-left {
-   margin: 20px;
-   max-width: 30%;
-   padding: 10px;
-   object-fit: contain;
-   align-self: flex-start; 
- }
+  /*Solid border around whole content on home, about and contact pages*/
+  .content-type-Solid {
+    margin: 15px;
+    border: orange 4px solid;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }  
+  /*No border around content area for blog and projects pages as each article will be bordered*/
+  .posts-projects {
+    margin: 15px;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }  
 
- /*Styling the images aligned to the center of a container*/
- .content-image-center {
-   margin: 20px;
-   max-width: 30%;
-   padding: 10px;
-   object-fit: contain;
-   align-self: center; 
- }
+  /*This puts individual borders around Project and Blog articles and gives a bottom margin to space them*/
+  .card {
+    border: orange 4px solid;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+
+  /*Styling the images aligned to the left of a container*/
+  .content-image-left {
+    margin: 20px;
+    max-width: 30%;
+    padding: 10px;
+    object-fit: contain;
+    align-self: flex-start; 
+  }
+
+  /*Styling the images aligned to the center of a container*/
+  .content-image-center {
+    margin: 20px;
+    max-width: 30%;
+    padding: 10px;
+    object-fit: contain;
+    align-self: center; 
+  }
+
+  
                                                       
 
 /*------------------------------------------------------------Styling for the footer---*/
@@ -239,7 +277,6 @@ max-width: 100%;
          margin-left: 20px;
          margin-right: 20px;
        }
-
 
        /*Change the color of links on hover */
        .bottom-nav:hover {
@@ -315,36 +352,36 @@ max-width: 100%;
   It will help control the overall positioning of everything within it*/
   /*------------------------------------------------------------Styling the main content area for pages--*/
 
-/*Overall container to hold and position the 
-3 main flex-containers for the middle of the page*/
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: DodgerBlue; /*For error checking only - should not display!*/
-  }
+  /*Overall container to hold and position the 
+  3 main flex-containers for the middle of the page*/
+  .flex-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background-color: DodgerBlue; /*For error checking only - should not display!*/
+    }
   
   /*flexible blank space down the left and right sides of the screen on larger screens
   that will shrink faster than the central area as size diminishes*/      
   .blank-side-area {
-  background-color: #2E3445;
-  flex-basis: 0%; 
-  flex-shrink: 2;
-  max-width: 0%;
+    background-color: #2E3445;
+    flex-basis: 0%; 
+    flex-shrink: 2;
+    max-width: 0%;
   }
   
   /*All main content on each page will display within this container.
   It will help control the overall positioning of everything within it*/
   .main-content-area {
-  background-color: #2E3445;
-  flex-basis: 70%;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  max-width: 100%;
+    background-color: #2E3445;
+    flex-basis: 70%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    max-width: 100%;
   }
                                                             
   /*Allow content and blog images to take up more space in containers on mobile displays*/
