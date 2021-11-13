@@ -17,7 +17,7 @@
     color: orange;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
-    font-size: 1.25em;
+    /*font-size: 1.25em;*/
     margin-left: 20px;
   }
 
@@ -25,21 +25,22 @@
     color: orange;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
-    font-size: 1.25em;
+    /*font-size: 1.25em;*/
     margin-left: 20px;
   }
 
   h3 {
     color: orange;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    font-size: 1.25em;
-    margin-left: 20px;
+    /*font-size: 1.25em;*/
+    margin-left: 10%;
+    margin-right: auto;
   }
 
   p {
     color: #DBE8D4;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    text-align: justify;
+    text-align: left;
     font-size: 1.25em;
     margin: 20px;
   }
@@ -47,18 +48,45 @@
   li {
     color: #DBE8D4;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    text-align: justify;
+    text-align: left;
     font-size: 1.25em;
-    margin-left: 20px;
+    margin-left: 10%;
+    margin-right: auto;
   }
+                                                              
+/*------------------------------------------------------------Styling Inages--*/
 
+/*Styling the images aligned to the left of a container*/
+
+ .content-image-left {
+  float: right;
+  display: table;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*Styling the images aligned to the center of a container*/
+.content-image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  padding: 10px;
+} 
   figure {
+    float: right;
     padding: 4px;
-    margin: auto;
-    width: 60%
+    margin: 20px;
+    width: 40%;
+    
   }
 
   figcaption {
+    float: right;
     background-color: black;
     color: #DBE8D4;
     font-style: italic;
@@ -71,6 +99,11 @@
     width: 100%;
   }
 
+/*Styling the Resume Icon*/
+#resume {
+  color: #beb63b;  
+  margin-left: 10px;
+}
 
 
 
@@ -216,26 +249,7 @@
     margin-bottom: 40px;
   }
 
-  /*Styling the images aligned to the left of a container*/
-  .content-image-left {
-    margin: 20px;
-    max-width: 30%;
-    padding: 10px;
-    object-fit: contain;
-    align-self: flex-start; 
-  }
-
-  /*Styling the images aligned to the center of a container*/
-  .content-image-center {
-    margin: 20px;
-    max-width: 30%;
-    padding: 10px;
-    object-fit: contain;
-    align-self: center; 
-  }
-
   
-                                                      
 
 /*------------------------------------------------------------Styling for the footer---*/
        
@@ -390,10 +404,30 @@
   }
 
   .content-image-left {
-    width: 90%;
+    width: 100%;
+    display: block;
   }
   p {
     font-size: 12;
   }
+
+  figure {
+    float: center;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+  }
+
+  figcaption {
+    float: center;
+    background-color: black;
+    color: #DBE8D4;
+    font-style: italic;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+  }
+
 
 }
