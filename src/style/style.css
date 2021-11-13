@@ -245,90 +245,89 @@ flex-wrap: wrap;
 /*When the screen is less than 600px wide*/
 @media screen and (max-width: 600px) {
 
-/*Hide all links except the "Home" and show the hamburger menu.*/
-.top-nav a:not(:first-child) {display: none;}
-.top-nav a.burger-icon {
- float: right;
- display: block;
-}
+  /*Hide all links except the "Home" and show the hamburger menu.*/
+  .top-nav a:not(:first-child) {display: none;}
+  .top-nav a.burger-icon {
+    float: right;
+    display: block;
+  }
 
-/*When the user clicks the burger icon the "responsive" class is added to the top-nav with javascript.*/
-/* This will display the links vertically on small screens.*/
-.top-nav.responsive {position: relative;}
-.top-nav.responsive a.burger-icon {
- position: absolute;
- right: 0;
- top: 0;
-}
-.top-nav.responsive a {
- float: none;
- display: block;
- text-align: left;
-}
+  /*When the user clicks the burger icon the "responsive" class is added to the top-nav with javascript.*/
+  /* This will display the links vertically on small screens.*/
+  .top-nav.responsive {position: relative;}
+  .top-nav.responsive a.burger-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
-/*Hide all links on hrizontal navigation bar, except for the first one ("Home"). Show the (.icon) */
-.topnav a:not(:first-child) {display: none;}
-.topnav a.icon {
- float: right;
- display: block;
-}
+  .top-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.*/ 
-/*This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-.topnav.responsive {position: relative;}
-.topnav.responsive a.icon {
- position: absolute;
- right: 0;
- top: 0;
-}
-.topnav.responsive a {
- float: none;
- display: block;
- text-align: left;
-}
+  /*Hide all links on hrizontal navigation bar, except for the first one ("Home"). Show the (.icon) */
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.*/ 
+  /*This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 
 
-/*flexible blank space down the left and right sides of the screen on larger screens
-that will shrink faster than the central area as size diminishes*/      
-.blank-side-area {
-  background-color: #2E3445;
-  flex-basis: 0%; 
+  /*flexible blank space down the left and right sides of the screen on larger screens*/
+  /*that will shrink faster than the central area as size diminishes*/      
+  .blank-side-area {
+    background-color: #2E3445;
+    width: 0%; 
   }
   
   /*All main content on each page will display within this container.
   It will help control the overall positioning of everything within it*/
   .main-content-area {
-  background-color: #2E3445;
-  flex-basis: 100%;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
+    background-color: #2E3445;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
   }
-/*Set the blog-post and container margins closer to the edge of the screen on mobile displays*/
-.content-type-Solid {
- margin-top: 15px;
- margin-left: 15px;
- margin-right: 15px;
- border: orange 4px solid;
- padding: 10px;
-}
 
-.content-type-dotted {
- margin-top: 15px;
- margin-left: 15px;
- margin-right: 15px;
- border: orange 4px dotted;
- padding:10px;
-}
+  /*Set the section and article container margins closer to the edge of the screen on mobile displays*/
+  .content-type-Solid {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: orange 4px solid;
+    padding: 5px;
+  }
 
-/*Allow content and blog images to take up more space in containers on mobile displays*/
-.content-image-center {
- max-width: 90%;
-}
+  /*Allow content and blog images to take up more space in containers on mobile displays*/
+  .content-image-center {
+    width: 90%;
+  }
 
-.content-image-left {
- max-width: 90%;
-}
+  .content-image-left {
+    width: 90%;
+  }
+  p {
+    font-size: 12;
+  }
+
 }
