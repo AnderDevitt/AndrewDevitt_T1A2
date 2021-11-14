@@ -8,13 +8,13 @@
 /*----------------------------------------------------------- Style the body--------- */
        body {
          font-family: Arial, Helvetica, sans-serif;
-         margin: 0; 
+        margin: 0;
        }
        
 /*------------------------------------------------------------Text styling-------------*/
   h1 {
     color: orange;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     /*font-size: 1.25em;*/
     margin-left: 20px;
@@ -22,7 +22,7 @@
 
   h2 {
     color: orange;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     /*font-size: 1.25em;*/
     margin-left: 20px;
@@ -30,7 +30,7 @@
 
   h3 {
     color: orange;
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*font-size: 1.25em;*/
     margin-left: 10%;
     margin-right: auto;
@@ -38,7 +38,7 @@
 
   p {
     color: #DBE8D4;
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     font-size: 1.25em;
     margin: 20px;
@@ -46,7 +46,7 @@
 
   li {
     color: #DBE8D4;
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     font-size: 1.25em;
     margin-left: 10%;
@@ -55,7 +55,7 @@
 
 
 
-/*------------------------------------------------------------Styling Inages--*/
+/*------------------------------------------------------------Styling Images--*/
 
 /*Styling the images aligned to the left of a container*/
 
@@ -79,27 +79,34 @@
   max-width: 450px;
   padding: 10px;
 } 
-  figure {
-    float: right;
-    padding: 4px;
-    margin: 20px;
-    width: 40%;
+
+/*Styling the Figure element and caption for images that come with information*/
+figure {
+  float: right;
+  padding: 4px;
+  margin: 20px;
+  width: 40%;
     
-  }
+}
 
-  figcaption {
-    float: right;
-    background-color: black;
-    color: #DBE8D4;
-    font-style: italic;
-    padding: 1px;
-    text-align: center;
-    width: 100%;
-  }
+figcaption {
+  float: right;
+  background-color: black;
+  color: #DBE8D4;
+  font-style: italic;
+  padding: 1px;
+  text-align: center;
+  width: 100%;
+}
 
-  img {
-    width: 100%;
-  }
+img {
+  width: 100%;
+}
+
+/*Styling the Main Blog page post thumbnaile*/
+.blog-thumbnail {
+width: 200px;
+}
 
 /*Styling the Resume Icon*/
 #resume {
