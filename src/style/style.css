@@ -235,6 +235,7 @@ width: 200px;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }  
 
   /*No border around content area for blog and projects pages as each article will be bordered*/
@@ -545,6 +546,7 @@ width: 200px;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }  
 
   /*This code was an appempt to limit the heights of the header and footer and begin scaling to screen sizes better.*/
