@@ -2,7 +2,7 @@
 ## Portfolio Site
 My portfolio website for Coder Academy Term 1 Assignment 2
 
-### Link to deployed website: https://jovial-khorana-c8f21d.netlify.app/index.html
+### Link to deployed website: https://peaceful-cray-76ecab.netlify.app/
 
 ### Link to my GitHub repo: https://github.com/AnderDevitt/AndrewDevitt_T1A2
 
@@ -16,6 +16,7 @@ The site will:
 - provide my contact details to employers who visit the site
 - link to my professional and social media sites (GitHub and Facebook, etc.)
 - show employers who I am as a person via an About Me page and a Blog
+
 
 # TARGET AUDIENCE
 The target audience is any potential employers looking for a junior web or full stack developer to employ. As such, it will need to remain professional in content.
