@@ -236,7 +236,7 @@ width: 200px;
   /*Solid border around whole content on home, about and contact pages*/
   .content-type-Solid {
     margin: 15px;
-    min-height: auto;
+    min-width: auto;
     /*min-height: 60%;*/
     border: orange 4px solid;
     width: 90%;
