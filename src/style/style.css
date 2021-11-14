@@ -8,10 +8,9 @@
 /*----------------------------------------------------------- Style the body--------- */
        body {
          font-family: Arial, Helvetica, sans-serif;
-         margin: 0;
+         margin: 0; 
        }
- 
-
+       
 /*------------------------------------------------------------Text styling-------------*/
   h1 {
     color: orange;
@@ -53,7 +52,9 @@
     margin-left: 10%;
     margin-right: auto;
   }
-                                                              
+
+
+
 /*------------------------------------------------------------Styling Inages--*/
 
 /*Styling the images aligned to the left of a container*/
@@ -75,6 +76,7 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 50%;
+  max-width: 450px;
   padding: 10px;
 } 
   figure {
@@ -101,7 +103,7 @@
 
 /*Styling the Resume Icon*/
 #resume {
-  color: #beb63b;  
+  color: #ee1010;  
   margin-left: 10px;
 }
 
@@ -242,6 +244,16 @@
     flex-direction: column;
   }  
 
+  .contacts {
+    
+      margin: 15px;
+      width: 90%;
+      padding: 10px;
+      display: inline-block;
+      align-items: center;
+    }  
+  
+
   /*This puts individual borders around Project and Blog articles and gives a bottom margin to space them*/
   .card {
     border: orange 4px solid;
@@ -249,6 +261,36 @@
     margin-bottom: 40px;
   }
 
+  /*Styling the Contacts page links and icons*/
+
+  /*This makes a section for the social media icons*/
+  .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .social-media a {
+    color: #DBE8D4;
+    margin: 20px;
+  }
+  .social-media a:hover {
+    color: grey;
+  }
+  /*Styling the social media icons*/
+  .social-icon {
+    color: #DBE8D4;
+    margin: 20px;
+    
+  }
+
+  /*Change the color of social media icons on hover */
+  .social-icon:hover {
+    color: grey;
+  }
   
 
 /*------------------------------------------------------------Styling for the footer---*/

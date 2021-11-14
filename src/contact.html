@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
+        <!--Displays website title on browser tab-->
+        <title>Andrew Devitt Portfolio T1A2 - Contact me</title>
+
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
+
         <!-- My stylesheet-->
+        <!--<link rel="stylesheet" href="frame_style.css">-->
         <link rel="stylesheet" href="../src/style/style.css">
-        <!--Load the icon library for my navigation links-->
+
+        <!--Load the icon libraries for icons, fonts, hamburger menu-->
+        <!--Icons-->
         <script src="https://kit.fontawesome.com/c0fb676b03.js" crossorigin="anonymous"></script>
-        <!-- Load the icon library for the hamburger menu for phones-->
+        <!--Hamburger menu-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!--Load the fonts for nav-->
+        <!--Fonts for NAV-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!--Load fonts for headings and paragraphs-->
+        <!--Fonts for H and P-->
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-        
-        <title>Andrew Devitt Portfolio - Contact</title>
     </head>
 
     <body>
-        <header name="top">
-            <!--A container for anything above the nav bar-->
+        <header name="top"><!--Arrow-button at the bottom returns user to here-->
+            <!--A container for positioning anything above the nav bar-->
             <div class="top-space">
-                <h1 class="page-title">Contact me</h1>  
+                <h1 class="page-title">Contact me</h1>
             </div>
+            
             <!--Top of page navigation: a horizontal nav bar for larger screens that shrinks to a hamburger menu on phones-->
+            <!--Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
             <div class="topnav" id="myTopnav">
                 <a href="../index.html" >Home</a>
                 <a href="about.html">About</a>
@@ -35,9 +44,10 @@
                   <i class="fa fa-bars"></i>
                 </a>
               </div>
-            <!--Javascript to run the hamburger menu: adds and removes the "responsive" class to top-nav when the user clicks on the hamburger menu icon-->
-        
-           <script> /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+
+             <!--Javascript to run the hamburger menu: adds and removes the "responsive" class to top-nav when the user clicks on the hamburger menu icon-->
+            <!--Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+            <script> 
                 function myFunction() {
                     var x = document.getElementById("myTopnav");
                     if (x.className === "topnav") {
@@ -46,62 +56,67 @@
                         x.className = "topnav";
                     }
                 }
-            </script> 
-            </header>
+            </script>
+        </header>
+    
+    
+        <!--A flex container to arrange the page content into three columns-->
+        <div class="flex-container">
+            <!--Create adjustible blank space on the sides of the page on larger screens and disappear on phones-->    
+            <div class="blank-side-area"></div>
+                <!--The container to hold all EDITABLE sections and articles within-->
+                <div class="main-content-area">
+                    <!--Makes a container with a solid border to surround page content-->
+                    <section class="contacts">
+                        <h1 class="page-subtitle">Contact me</h1>
+                        <!--  EDIT BELOW HERE TO CHANGE CONTENTS BUT NOT PAGE STYLING AND LAYOUT  -->
 
 
+          
+                        <section>
+                            <h2>If you've got questions, an offer of work, or you just want to say <b><em>hi</em></b>, I'd love to hear from you. Get in touch with me below.</h2>
+                            <br>
+                            
+                            <div class="social-media">
+                                <a class="social-icon" href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x" alt="Facebook icon"></i><br><br>Connect on Facebook</a>
+                                <a class="social-icon" href="https://www.github.com"><i class="fab fa-github-square fa-3x"></i><br><br>Find my work on Github</a>
+                                <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-3x"></i><br><br>Connect on Linkedin</a>
+                            </div>
+                            <br>
+                            <div class="social-media">
+                            <h2>Or email me at <a href="mailto: gcab022116@coderacademy.edu.au">gcab022116@coderacademy.edu.au</a></h2>
+                            </div>
+                        </section>
+                    
 
-
-            <!--A flex container to arrange the page content into three columns-->
-            <div class="main-flex-container">
-                <div class="blank-side-spacing"></div>
-                <div class ="main-content-area">
-
-                    <!--Editable Contact page content goes here-->
-                    <section class="contents">
-                        <h2>Get in touch with me here</h2>
-                        <p>If you've got questions, an offer of work, or you just want to say <b><em>hi</em></b>, I'd love to hear from you.</p>
-                        <h3>Social media</h3>
-                        <div class="social-media">
-                            <a href="https://www.instagram.com"><img src="../src/images/instagram.jpg" alt="link to Instagram"></a>
-                            <a href="https://www.twitter.com"><img src="../src/images/twitter.jpg" alt="link to Twitter account"></a>
-                        </div>
-                        <h3>Professional accounts</h3>
-                        <div class="social-media">
-                            <a href="https://www.github.com"><img src="../src/images/twitter.jpg" alt="link to Github account"></a>
-                            <a href="https://www.linkedin.com"><img src="../src/images/linkedin.jpg" alt="link to Linkedin"></a>
-                        </div>
-                        <h3>Email</h3>
-                        <div class="email">
-                            <p>Email: <a href="mailto: gcab022116@coderacademy.edu.au">gcab022116@coderacademy.edu.au</a></p>
-                        </div>
+                    <!--  END OF EDITABLE CONTENT AREA  -->
                     </section>
-                    <!--END of editable section-->
-
+                        
                 </div>
-                <div class="blank-side-spacing"></div>
-            </div>
-            
-
-
-
-
-            <!--the footer contains a secondary navigation, top button for large content pages, copyright info-->
-            <footer>
-                <div class="up-button">
-                    <a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a>      
-                </div>
-                <div class="page-buttons">
-                    <a class="bottom-button" href="../index.html"><i class="fas fa-home fa-2x"></i></a>
-                    <a  class="bottom-button" href="about.html"><i class="fas fa-user fa-2x"></i></a>
-                    <a  class="bottom-button" href="projects.html"><i class="fas fa-briefcase fa-2x"></i></a>
-                    <a  class="bottom-button" href="blog.html"><i class="fas fa-blog fa-2x"></i></a>
-                    <a  class="bottom-button"><i class="fas fa-address-book fa-2x"></i></a>
-                </div>
-                <div>
-                    <p>&#169; Andrew Devitt 2021</p>
-                </div> 
-            </footer>
+            <div class="blank-side-area"></div>  
+        </div>
         
+
+
+
+        <!--the footer contains a secondary navigation, top button for large content pages, copyright info-->
+        <footer>
+            <!--Creates a button to return users t the top of the page without scrolling-->
+            <div class="up-button">
+                <a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a>      
+            </div>
+            <!--Creates icon buttons for a user to navigate to pages from the bottom of the screen-->
+            <div class="page-buttons">
+                <a class="bottom-nav" href="../index.html"><i class="fas fa-home fa-2x"></i></a>
+                <a  class="bottom-nav" href="about.html"><i class="fas fa-user fa-2x"></i></a>
+                <a  class="bottom-nav" href="projects.html"><i class="fas fa-briefcase fa-2x"></i></a>
+                <a  class="bottom-nav" href="blog.html"><i class="fas fa-blog fa-2x"></i></a>
+                <a  class="bottom-nav"><i class="fas fa-address-book fa-2x"></i></a>
+            </div>
+            <!--Copyright information-->
+            <div>
+                <p>&#169; Andrew Devitt 2021. All rights reserved.</p>
+            </div> 
+        </footer>
     </body>
 </html>
