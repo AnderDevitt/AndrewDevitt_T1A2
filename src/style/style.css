@@ -499,6 +499,43 @@ width: 200px;
     text-align: center;
     width: 100%;
   }
-
-
 }
+
+/*When the screen is more than 1280px wide*/
+@media screen and (min-width: 1280px) {  
+  /*All main content on each page will display within this container.
+  It will help control the overall positioning of everything within it*/
+  /*------------------------------------------------------------Styling the main content area for pages--*/
+
+  /*Overall container to hold and position the 
+  3 main flex-containers for the middle of the page*/
+  .flex-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background-color: DodgerBlue; /*For error checking only - should not display!*/
+    }
+  
+  /*flexible blank space down the left and right sides of the screen on larger screens
+  that will shrink faster than the central area as size diminishes*/      
+  .blank-side-area {
+    background-color: #2E3445;
+    flex-basis: 15%; 
+    flex-grow: 2;
+    max-width: 15%;
+    min-width: 15%
+  }
+  
+  /*All main content on each page will display within this container.
+  It will help control the overall positioning of everything within it*/
+  .main-content-area {
+    background-color: #2E3445;
+    flex-basis: 70%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    max-width: 70%;
+  }
