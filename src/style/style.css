@@ -547,16 +547,17 @@ width: 200px;
     flex-direction: column;
   }  
 
-  header {
+  /*This code was an appempt to limit the heights of the header and footer and begin scaling to screen sizes better.*/
+  /* But I need more practice, time and knowledge. I'm keeping it as I think it's worth the challenge to fix this.*/
+  /*header {
     color: #DBE8D4;
     background-color: #222733;
     padding: 20px;
     min-height: 20%;
-    
-  }
+  }*/
 
   /*Styling for the footer area/container*/
-  footer {
+  /*footer {
     color: #DBE8D4;
     background-color: #222733;
     display: flex;
@@ -564,6 +565,6 @@ width: 200px;
     flex-basis: 20%;
     justify-content: center;
     align-items: center;
-    min-height: 20%
-  }
+    min-height: 20%;
+  }*/
 }
