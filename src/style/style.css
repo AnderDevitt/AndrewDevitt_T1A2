@@ -341,6 +341,10 @@ width: 200px;
        .up-button a {
          color: #DBE8D4;
        }
+       /*Change the color of arrow-button on hover */
+       .up-button :hover {
+        color: grey;
+      }
 
        /*Positions the bottom nav buttons*/
        .page-buttons {
