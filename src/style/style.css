@@ -252,20 +252,36 @@ width: 200px;
   }  
 
   .contacts {
-    
       margin: 15px;
       width: 90%;
       padding: 10px;
       display: inline-block;
       align-items: center;
-    }  
-  
+  }  
+    .contacts a {
+      color:khaki;
+    }
+    .contacts a:hover {
+      color:lightblue;
+    }
+    .contacts a:visited {
+      color:lightseagreen;
+    }
 
   /*This puts individual borders around Project and Blog articles and gives a bottom margin to space them*/
   .card {
     border: orange 4px solid;
     padding: 20px;
     margin-bottom: 40px;
+  }
+  .card a {
+    color:khaki;
+  }
+  .card a:hover {
+    color:lightblue;
+  }
+  .card a:visited {
+    color:lightseagreen;
   }
 
   /*Styling the Contacts page links and icons*/
@@ -323,7 +339,7 @@ width: 200px;
 
        /*Colours the arrow-button*/
        .up-button a {
-         color: blueviolet;
+         color: #DBE8D4;
        }
 
        /*Positions the bottom nav buttons*/
