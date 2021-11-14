@@ -1,0 +1,1098 @@
+commit 6e4b8dbd74ff39fd164c4af1ef19ffd3dc0b75b0
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 18:40:59 2021 +1000
+
+    flex-shrink added to top elements
+
+commit 52ee360b1372e587977f913f7a7af3a62b067375
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 18:27:13 2021 +1000
+
+    90% min- height main content area large screens
+
+commit eb77d28edde4583891523d8c8c1d4d6f54a5da20
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 18:25:48 2021 +1000
+
+    70% height solid content large screens
+
+commit f9d4865e1703badd60210a7a2d42abb81304c528
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 18:23:57 2021 +1000
+
+    min-height remove flex-container mid sized screens
+
+commit ab0612c261fd1e972d4b1256fdd36d8f8249c711
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 18:22:33 2021 +1000
+
+    min-heights smaller for tablet size
+
+commit dd325c3cde5399a53e2ed28f6562a9e60f94e402
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 18:21:09 2021 +1000
+
+    min-heights smaller
+
+commit a5ed83caed4b631f7c87dbe5c59ed387676a2a7a
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 18:15:25 2021 +1000
+
+    removed <br> from index as unneeded now
+
+commit 5b5aa8bc99649d7a363a48666539469e5a0876a6
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 17:27:49 2021 +1000
+
+    removed unnecessary files and directories
+
+commit 9186ddf041933a755e913fb26ff6aaadd6364ef9
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 17:22:46 2021 +1000
+
+    reversed h1 and h2 tags on pages
+
+commit febc7d14da63123dd3426e2110afc24f3d723f79
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 17:12:50 2021 +1000
+
+    changed colour of welcom on index page
+
+commit db21a9400ce1802d9f25373fffc68469599205c8
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 17:10:37 2021 +1000
+
+    original colors for title and subtitle. Kept larger sizes.
+
+commit e3d31f2b08aebbd1d92ff317bee5848b78f69b0d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 17:05:24 2021 +1000
+
+    changed page title and subtitle colours and sizes
+
+commit b554659c697a8724776a5828afcfe3e342d61982
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 17:03:50 2021 +1000
+
+    changed page title and subtitle colour to khaki
+
+commit 095f0878b833c78a068b51af2f811fb0c2108775
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 17:00:58 2021 +1000
+
+    justify to center on solid bordered contents
+
+commit e8fb78508c908ce2c7bcabbc269ba13bb02224fe
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:58:57 2021 +1000
+
+    <br> and comment added to index
+
+commit e17ccb60d15a204029c05ffe1398bfc9a8cc93d0
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:56:30 2021 +1000
+
+    Removed the header and footer from the large screen media breakpoint. Needs more time to implement and the site looks good for now
+
+commit e87a4f29719b323e2331eef7bd9aaa38e667eee2
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:52:04 2021 +1000
+
+    flex-basis triel
+
+commit 44b7309e98c6925347f390779c5621692024615f
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:50:13 2021 +1000
+
+    try adding header and footer in large screen breakpoint. works ok without
+
+commit adfd36013a528a87c3f53d3b71f407d35f716000
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:45:54 2021 +1000
+
+    added content-type-solid and a min-height of 90% to the large screen media point
+
+commit c5815c355632936fa49377a415b6550052285de1
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:41:44 2021 +1000
+
+    main-content-area min-height and flex-basis to 60%
+
+commit 825cb4c4a98c93970b35dfbfc9db840e5e52f905
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:40:20 2021 +1000
+
+    working on large screen flex-container height at 1000px it made a positive change teting 800px
+
+commit b7997747f1f9b849df08c06b28a04900fd9a96d0
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:38:26 2021 +1000
+
+    working on large screen flex-container height2
+
+commit c81230fa056484b1b8cf73b963315638c37b9687
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:35:28 2021 +1000
+
+    working on large screen flex-container height
+
+commit f52d6f383e3798eddbffb83fdfb168b7c16b09bd
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:32:47 2021 +1000
+
+    breakpoint added for large screens
+
+commit 3c61c33ff664914e93f8861285eabe1545939e8f
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:28:00 2021 +1000
+
+    undid edits to height
+
+commit 4180139f7d8c4305667495da4335ce4633f1302c
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:26:33 2021 +1000
+
+    try flex-basis
+
+commit 7982c8dfd3a3624cbc83a6c5521afe71d7155f2a
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:22:37 2021 +1000
+
+    min-height 600px on content solid
+
+commit b130e5a36c984ebff17b5f3870feeca0608be2cb
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:20:48 2021 +1000
+
+    min-height 60% changed to auto
+
+commit 8054876d1dbddd19cdca7276c920ba04b2b6db79
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:19:10 2021 +1000
+
+    min-height 60%  added to style solid container
+
+commit dfefedbf575f4beea570949f925c244152b293b8
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:18:09 2021 +1000
+
+    min-height 60%  added to style solid container
+
+commit e80fb931e81e6c11847c1ee38d69c1e69ab02fe0
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:16:15 2021 +1000
+
+    min-height trial removed from index and added to style solid container
+
+commit 61161e060b7ecc37f27bc7354c7c23cf4602c850
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:14:12 2021 +1000
+
+    min-height trial on index for main container
+
+commit 0225a66918b129b4f8c6df31cdaf3a26e7450552
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:10:45 2021 +1000
+
+    content text edit on about page to fix a type and full names of universities
+
+commit 429497d8700fe7ba5eab0267fab4700532f83a03
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 16:07:48 2021 +1000
+
+    pre merge
+
+commit f5935b5d69a057a775a5de32ca0dd9adb9d2cfb8
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 15:39:17 2021 +1000
+
+    final commit on branch hamburger. Site is ready and it's time to merge with main branch
+
+commit 03fa0bdbf6fe6663c0d6f6970a39b33edecad352
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 14:45:58 2021 +1000
+
+    aside from some tweaks, the site is finished and working
+
+commit 1465258a495cc830da97f0cb678450ec27325e6e
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 14:15:19 2021 +1000
+
+    blog pages added; need to make a link to return to main blog page
+
+commit 1a037f013dd5288642b0ddac6af83882ee751efe
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 13:41:09 2021 +1000
+
+    main blog page finished. imaged all optimized and thumbnails created and used on main blog
+
+commit 2c121b5d9e2a03a90954fd8c6c24bc58fb655821
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 11:59:59 2021 +1000
+
+    contact only needs links
+
+commit 9be461a6cd5fb07a483d9995997cd780c4ae4c9f
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sun Nov 14 01:21:30 2021 +1000
+
+    index, about and project are done!
+
+commit 8cabbe7e6bb2f1515d07dc59ff9faf06f0f4aa09
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 22:46:45 2021 +1000
+
+    index, about and project pages apear to be almost done. (resume needed for about
+
+commit ef5fead3b96696f283ab5d59cb3f579cb81c45e7
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 18:54:25 2021 +1000
+
+    edited text in about.html. need to add the resume link and pictures.
+
+commit f47afa18030aad95665cab61f367045b16b1c6b9
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 18:48:09 2021 +1000
+
+    straightened some code. fixt bottom-nav on about page
+
+commit 0e45d1eb45b29473d156132ec18471e81639643e
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 18:31:15 2021 +1000
+
+    all fonts to 1.25em
+
+commit 86edf4a365f74a69684b647575fd780deee68983
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 18:28:19 2021 +1000
+
+    all fonts to 2em
+
+commit 00d4ebc65e517235614285af2d68890e9babd555
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 18:25:35 2021 +1000
+
+    em1 font sizes for headings and margin-left: 20px
+
+commit 0f646abd1e513579e3cc68d3ea842eeb45896cf9
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 18:22:18 2021 +1000
+
+    updated font color and styling for headings and li, and added some margins for text
+
+commit 46e645fd66aeff928618f5154841e6f579f3dd21
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 18:09:46 2021 +1000
+
+    changed flex-basis. Do I really need the blank-space-areas?
+
+commit ef7dfdf823699ff7ad89b317b19eee1953118185
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 18:05:32 2021 +1000
+
+    removed justify from fonts
+
+commit dcce0a5200da1d878aff460845edb7650d77db74
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 17:52:32 2021 +1000
+
+    try p font size of 20px h3 justified and change of h3 font
+
+commit 5cd56579be0e84d12f1f6d4d7b4cc32135554f87
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 17:48:58 2021 +1000
+
+    li color and justify uncommented
+
+commit e1e328b3ccf66ee3da21a216f61392c532a6d6e9
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 17:46:53 2021 +1000
+
+    forgot ../ in style link on about.html page
+
+commit aef7a6eca73109df71b971dfc5a024f53c013332
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 17:44:54 2021 +1000
+
+    edited content into about.html
+
+commit 5d1629b4963af1ed28b53f9bb2c5a6ef79e65cb5
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 16:49:23 2021 +1000
+
+    flex-basis main area 80% sides 10%
+
+commit 32585de700785b06dc92870f221430643437a1a0
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 16:47:44 2021 +1000
+
+    changed side-area flex-basis from 0% to 15% for PC; if this works I think it's all good
+
+commit 588caa1e3a814e7e93c6cb9c9913102eb1495264
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 16:45:58 2021 +1000
+
+    changed main-content-area max-width from 90% to 70% for PC
+
+commit e3b17cff87fe35cfe0cae0322129ebf227a07780
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 16:40:41 2021 +1000
+
+    linked old stylesheet unlinked new one
+
+commit c1d10f05d791a94859cbc0b8e89843be6556378e
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 15:35:28 2021 +1000
+
+    new breakpoint test
+
+commit adede84f4f788acca8625079f4c4d0df099a7a3e
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 15:34:43 2021 +1000
+
+    new breakpoint test
+
+commit be6eb9da6320b48fdd27df6d3201a0cf95625d3d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 15:32:45 2021 +1000
+
+    new breakpoint test
+
+commit d60e0ffc9b47f0b2fc76bc26955f369bb131daef
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 15:32:06 2021 +1000
+
+    new breakpoint test
+
+commit 88d9774c060ec87d762754034ca6b03bdffac196
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 15:31:12 2021 +1000
+
+    new breakpoint test
+
+commit c29504674bb52b6b98e4fd84d67620259220ffbc
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 15:26:44 2021 +1000
+
+    added flex shrink and flex grow to containers min and max width
+
+commit e2c90f20dbcc3bfeb296d96dc9855260a32525da
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 15:25:01 2021 +1000
+
+    added flex shrink and flex grow to containers
+
+commit ccbbf02a1270c009c46aef27b84e8db952340826
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 15:22:32 2021 +1000
+
+    resizing the blank space and main content on mobile
+
+commit 4d8997bd76901bc3e1a89ac87fbbcec2ba573db7
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 15:20:11 2021 +1000
+
+    removed size and styling for p and li
+
+commit ed7c3baefb6d439ddc128f9ef113107956069d6d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 15:18:03 2021 +1000
+
+    trying last change with width rather than flex-basis for mobile
+
+commit e650e742015b72a8f253c5fbccd9fbaf03cbbe4d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 15:07:46 2021 +1000
+
+    added blank side and main content areas to mobile breakpoint to reduce flex-basis of the first to 0% and the later increase to 100%
+
+commit 0770e2e5f749df50655c697a1677fa0125318af5
+Merge: f000bc0 53c281b
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 14:59:46 2021 +1000
+
+    re-coded basic site framework andcontainers in frame-index and frame-style.css. Have now merged with index.html and style.css
+
+commit f000bc0fcb638e72a385d4a12d1d7729ee3e7068
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 13 14:56:52 2021 +1000
+
+    re-coded basic site framework andcontainers in frame-index and frame-style.css. Have now merged with index.html and style.css
+
+commit 7c499502a8f08bad4b4fdbb05f6185e2065a7ec4
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 20:57:28 2021 +1000
+
+    borders still
+
+commit 53c281b88d19d54df1d4c75352440b4dee615d83
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 20:39:07 2021 +1000
+
+    simplifying and fixing the borders for .contents .even-posts and .odd-posts classesas they were doubling up on blogs
+
+commit 3889fef9a7e723b04a09f5758bc2534dd90503bc
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 20:29:03 2021 +1000
+
+    flexbox main content area set up for all pages
+
+commit 75d90b3f856dadcaa16afa8303a0298d0fee043a
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 20:15:33 2021 +1000
+
+    redesigned main content area for flex box. Testing on home page
+
+commit 067f3067624cd2dbfa3aadaf3d15ef782e865b74
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 20:13:37 2021 +1000
+
+    redesigned main content area for flex box. Testing on home page
+
+commit 59e0163e04e4365d8baa86c83137fb8a5cda8623
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 17:45:13 2021 +1000
+
+    removed justify-content and align-items from main-boby-area
+
+commit 9caa5080a2d102328dac5b733a2968bc72f004f0
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 17:43:33 2021 +1000
+
+    content margin set to 300px?
+
+commit 3dda9158d0b08604591f8e81a3d3e49bf6e6d278
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 17:37:47 2021 +1000
+
+    resize content left and right margins from 20% to 10% on home and about pages
+
+commit ab96bec7eba4f77a7e8feceeef569a88abe4fc0f
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 17:36:29 2021 +1000
+
+    resize content left and right margins from 20% to 10%
+
+commit 3c5c00353c164d7661758f75b90a3bc4369fd8d4
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 17:35:10 2021 +1000
+
+    commented out old main-content div call to check
+
+commit 45b40d7f84e499d82ebcd6ad7203d1634d436b84
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 17:33:19 2021 +1000
+
+    test max-width: 80% on blog articles for larger screens
+
+commit 0cf82f0daf0136abcec2012d508a02b6c49733c1
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 17:28:59 2021 +1000
+
+    semantic HTML; tidying up; removing divs that may be redundent added some CSS to .content and .even-posts
+
+commit 3de5b4ee0c971b243ae29b8538319405b823e0e5
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 17:26:03 2021 +1000
+
+    semantic HTML; tidying up; removing divs that may be redundent
+
+commit b454ee1803270f8cb56cb61d14b9d4cd366a1701
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 16:50:20 2021 +1000
+
+    main-content div min-width 80% typo fixed
+
+commit 8a3147a4aa12c121c4ac7ba7a8d82943871e776d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 16:43:38 2021 +1000
+
+    main-content div min-width 80%
+
+commit 54a2e531519159e7df6057743dd094d7e6d9399c
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 16:41:40 2021 +1000
+
+    responsive image and text trial
+
+commit 0c2c38f16f731fd1b7ff225ab2c6ef7704515e8e
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 16:08:50 2021 +1000
+
+    *{box-sizing: border-box} at start of style
+
+commit f7071df077537229e2e0ac9e42106350f7fad426
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 16:02:58 2021 +1000
+
+    removed the flex attempt n blog as not working or changing anything
+
+commit 8deebc9d060af579e2f90f65b30e5552ec76da19
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 15:49:20 2021 +1000
+
+    content-image only instead of extra blog-image class; trying to add flex to blog and images align-items?
+
+commit 533c704947dc74136c44ac789f6bd1a3997e7ad4
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 15:48:08 2021 +1000
+
+    content-image only instead of extra blog-image class; trying to add flex to blog and images
+
+commit 2db69c7d96c71f3bfb076e63a82d52a01ed56c5e
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 15:36:31 2021 +1000
+
+    merged media breakpoints for mobile into one call
+
+commit c02eaffbe423b557511d79709bc28d395eabf53b
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 15:28:24 2021 +1000
+
+    can I merge mobile media breakpoints into one call?
+
+commit 32ec628958091c53dbb0ec1bc7041cdc11041615
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 15:24:01 2021 +1000
+
+    my_image jpg to png fix
+
+commit 7bf3d06a14051053df2dd173dedcfb4475b86077
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 15:22:58 2021 +1000
+
+    optimised images added
+
+commit eec28aa77287b2100e8ff83e0425335c820cf12c
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 12 15:19:47 2021 +1000
+
+    optimised images added
+
+commit df64c200adbbf996796657a6d47e476f4bfa490a
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 14:40:58 2021 +1000
+
+    contact page contents and style
+
+commit 4cb39531dbcec76e4fa8672a96fbe4aaac9ad757
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 11:47:35 2021 +1000
+
+    contact page contents and style
+
+commit 94960fd950086896f9fdf5dc4feedece1ccfd064
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 11:38:36 2021 +1000
+
+    tidy css and add display: flex for social-media div
+
+commit f34989fee10923c5f27372d08f15a502734d8a9c
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 11:29:13 2021 +1000
+
+    remove duplicated css code for top-nav other code was broken
+
+commit 5937a7b367a228a315a884861075eaa41fc0bc72
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 11:26:44 2021 +1000
+
+    remove duplicated css code for top-nav
+
+commit 019e5144a74173928fb725ba9ff4c48e611bf320
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 11:13:32 2021 +1000
+
+    shell and contents added to all non-blog pages and a solid orange border set
+
+commit 7552e1be38eadcc1bf434268f96e5c31308b3bb8
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 11:09:38 2021 +1000
+
+    fixed missing > in shell div
+
+commit de5236be12a6b7abd96129074709a09fb85fc793
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 11:06:49 2021 +1000
+
+    added shell div and contents section to try mirror blog results
+
+commit 5d263bea558ab85468b9d2c8a197522bd6aa6902
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:57:14 2021 +1000
+
+    added a container div breakpoint removed
+
+commit 68d15a0a409dbfd8ee9375e25a27ee8b3a0bc83d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:53:28 2021 +1000
+
+    added a container div for non-blog pages to unify styling breakpoint margin adjustment added
+
+commit e86ab472d06fb642bf78de58e9785b898b2e798e
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:49:28 2021 +1000
+
+    added a container div for non-blog pages to unify styling
+
+commit e3ed5cab18b36adff39adf7e294c01f11a4e3053
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:43:06 2021 +1000
+
+    blog and main-content image size 50% of container on large screens and 80% on mobile
+
+commit 5806c2e5ea23c19a34e719773b8a0649e97c954e
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:32:22 2021 +1000
+
+    blog  image size 50%
+
+commit 4f38ad05fb15b49a6b054df0c2eb3add3ee25756
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:31:26 2021 +1000
+
+    blog  image size
+
+commit dfcbfa0081025f5644f3a3da1c50cf7a1606b5bf
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:29:35 2021 +1000
+
+    main-content image
+
+commit 87deab13ef24e970e59506db3fd906fe8add8938
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:20:54 2021 +1000
+
+    blog felx-direction
+
+commit 52b735a05c23ff9fb4c81372ed1a7f1b995fa12e
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:19:42 2021 +1000
+
+    blog felx-direction
+
+commit eb1f0b4e50ca5e9337e3da7b51f2722284b0fa83
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:18:10 2021 +1000
+
+    blog images centered
+
+commit 2eded54d7c83c10cbd8226c72f29170ebcc2811d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:15:06 2021 +1000
+
+    media breakpoint adjustments for blog post margins
+
+commit 17c3aa9405b0fcf618effa75fc5b5fc96cfcd076
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 10:01:17 2021 +1000
+
+    post image sizes and flex
+
+commit 40a5bc0787bc409c22bba846349becfebbeae323
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 09:55:14 2021 +1000
+
+    post margins
+
+commit cd32c0d1b5945d3351b536ee1e0ba1a866f4801d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 09:54:00 2021 +1000
+
+    post margins
+
+commit 0850a18c7245034a3ed9eee5fdbfc4604a994135
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 09:51:10 2021 +1000
+
+    working on flex for blog posts text-align
+
+commit 089612daaed8aadf85bcd7c1559552b7504463c5
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 09:48:48 2021 +1000
+
+    working on flex for blog posts
+
+commit 0e4aca025ac29c1745f865dab604ff9b48f98ecd
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 09:33:26 2021 +1000
+
+    top-space done!
+
+commit 555bd90a05f071bd16d26426673204c7a4ecf953
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 09:31:39 2021 +1000
+
+    2em  font-size for title 10px margin-left subtitle
+
+commit 79af5024103805d6f3ef34d65d165fe3725c2224
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 09:28:49 2021 +1000
+
+    removed line-height and font-size for title
+
+commit 86698732544c25f118097f96b1b49dac26a0aa27
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 09:26:46 2021 +1000
+
+    working on flex for top-space shrink title
+
+commit 83369217a2af9b0d33300ca5712f2860e758d5eb
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 09:25:22 2021 +1000
+
+    working on flex for top-space added background colors to items and removed padding
+
+commit 01e45b2bfa6395084bc7e8c9df66c37b911dbf66
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 09:20:11 2021 +1000
+
+    working on flex for top-space
+
+commit 6623976a929caf67609ce0ca815667deaf655e2d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 11 08:56:34 2021 +1000
+
+    using w3schools nav without my edits to solve the issue. It works again.
+
+commit d47715e91e662b2b0a3f9d09a6fec51e0583ee6a
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 23:16:34 2021 +1000
+
+    trying w3schools code to check my own
+
+commit bd8d695d25e5b7398ff56b5ebe2e7d710ab7673b
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 23:09:54 2021 +1000
+
+    deleted type in link name
+
+commit ab9f3f27d951b6a8e899e372af1b90f8c23e3dba
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 23:07:47 2021 +1000
+
+    still fixing top-nav hamburger
+
+commit dbeb1acc371fafb7289e5c35aa77004432f6894c
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:59:12 2021 +1000
+
+    nav to div?
+
+commit 7ffca30e952bb7200fd6b95cf5c5a56e165172f5
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:57:15 2021 +1000
+
+    testing hamburger error; have replaced function name to original my-top-nav and removed two images from links to test
+
+commit 26eebd3e59187c82342b471eb9d1c8ae5cd92a37
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:55:04 2021 +1000
+
+    testing hamburger error
+
+commit 2202389006abbe80fcfe098b1865e7fb3b0f48a9
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:53:50 2021 +1000
+
+    testing hamburger error
+
+commit 479569f571e84206f77849ea7b727700acc433a2
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:51:15 2021 +1000
+
+    hamburger error?
+
+commit 909e9352bfa509c951b4a59908bd613352979891
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:41:21 2021 +1000
+
+    fixed page-bottom links and added template for projects page
+
+commit eb5772138f94662c92b90494fa78ad735728c3f7
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:33:51 2021 +1000
+
+    updated header and footer for contact.html to match new style; corrected content errors on blog page
+
+commit 304fb3849771d9211d5a8f047f8b7fec4cc3f4b3
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:26:29 2021 +1000
+
+    image for zombies post and headings to orange
+
+commit 54ae1ea1691df8326c8ab50a12964c09c3dac377
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:17:44 2021 +1000
+
+    blog-pic sizing removed width:50%
+
+commit b41d23094b3c2be2c765b20e70316d315fd38707
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:16:33 2021 +1000
+
+    blog-pic sizing
+
+commit 5b4e580f0328ae26af291baa2a261b35eeb84b5d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:14:49 2021 +1000
+
+    styling li fonts
+
+commit e36a2beb693b8135e09e3b0af1b35f5f4fe61f95
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:13:33 2021 +1000
+
+    comic sans ms font for headings
+
+commit cc444f97d3455074e876387274d7cfb7b8c3a5a0
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:11:14 2021 +1000
+
+    simplified h1, h2, h3 by removing fancy font; applied fancy fonts to page-title and page-subtitle classes only
+
+commit a8b0a247a84797b69716e79f1c74a37ced9639d9
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 22:05:21 2021 +1000
+
+    added two blog posts and some styling for the blog page
+
+commit ac43855ec266befe839ef2906f0186eb96b061cb
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 21:00:55 2021 +1000
+
+    working on about page fixed style.css link issue
+
+commit f151703ca5828f08a2eb987a8c1e069aa8ff7250
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 20:59:08 2021 +1000
+
+    working on about page
+
+commit 26f12ba2e7ef8ba39afaac3702396d597e5b6ea6
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 20:45:51 2021 +1000
+
+    tidyied up the css file and added comments throughout
+
+commit d6f89d54b1334d2ef9f8d94e9a8bc1862c566d75
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 20:21:48 2021 +1000
+
+     bw face image max-sizes and new font trial
+
+commit 9a8138ff698e70665d1de8427d7ab504c7c61a71
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 19:51:58 2021 +1000
+
+     bw face image added to index fixed error
+
+commit 6e83c3f7cd6232c71104992874002812fec6a689
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 19:49:57 2021 +1000
+
+     bw face image added to index
+
+commit b62ffcb1cd4b149bed59a634a9ae473046dd9b86
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 19:42:03 2021 +1000
+
+     added media breakpoints for phone, new font for page title
+
+commit 302e7caed1a17d89dc3f410a1c8827ab215b230e
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Wed Nov 10 19:09:00 2021 +1000
+
+     html and css changed to make a hamburger menu; missing media breakpoints
+
+commit 3d86221e3e7c464e2142cdfa132bd4ea692920ef
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Sat Nov 6 09:47:16 2021 +1000
+
+    tidying up
+
+commit e37b7583035fd894210a1f2597d71959c08601f8
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 14:35:25 2021 +1000
+
+    testing image alignment index image-text-container align and justify; changes removed
+
+commit 739f253858b73f5ba5cdbc8b1c42771d244e0388
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 14:33:55 2021 +1000
+
+    testing image alignment index image-text-container align and justify
+
+commit 9d7c9fd79e30146bde25c07a72edfa37be32af97
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 14:32:51 2021 +1000
+
+    testing image alignment index image-text-container align and justify
+
+commit 847f68d08a1d028a3d446eaafa35ccdd9964497f
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 14:23:32 2021 +1000
+
+    test icon + text for bottom links on contact page
+
+commit b7fc255ce7f200b6bb38ead77dcb8467f17a7bce
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 14:19:44 2021 +1000
+
+    fixed about link page bottom on contact page
+
+commit a6d978ce767d8682c9443b1606f311465805afdd
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 14:17:57 2021 +1000
+
+    fixed missing /div
+
+commit ceef2d8fb16ba4a1e4c049193cb4979c4f6b3ac5
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 14:17:03 2021 +1000
+
+    fixed missing /div
+
+commit 743e274f3d0cf9070356e7ea65c59d77043b3a1f
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 14:14:36 2021 +1000
+
+    removed image from header on about and contact pages
+
+commit 4f637decd97586dfa75669deea45ed3d84e93253
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 14:12:27 2021 +1000
+
+    fixing bad links src and index mixup3
+
+commit 789ed66f88e46ad879eb7b1f46d86320c79bfc06
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 14:09:22 2021 +1000
+
+    fixing bad links src and index mixup2
+
+commit b983107452457ee68bf3feeafe10510d83aad98f
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 14:03:51 2021 +1000
+
+    fixing bad links src and index mixup
+
+commit b58ac99742a9c167a64ed2b6e0aea5cfc91faa21
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 13:58:52 2021 +1000
+
+    starting the contact page4
+
+commit 981d37c8e1ee34c8de7f7a93a51636a7d887efd8
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 13:56:10 2021 +1000
+
+    starting the contact page3
+
+commit 1eac90e6aca6205967203fca47de5d21f070b8d9
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 13:53:22 2021 +1000
+
+    starting the contact page
+
+commit 19ba9188338d25f93d3698ebb49fb31ca05590bb
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 13:49:26 2021 +1000
+
+    starting the contact page
+
+commit 45f3fafd793e9f2225aabb69f326b0081b617f0c
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 13:41:30 2021 +1000
+
+    icon resize main nav
+
+commit b5e23ff246fb9181522619b91421297a8997ead0
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 13:37:09 2021 +1000
+
+    fixed styling error in main-content that occured after the flex edits
+
+commit f97c2000df634703fdde6361a2b3147b1865670d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 13:14:35 2021 +1000
+
+    classmate and Ash helped me with flex to align icons and text + many changes I need to review
+
+commit 485bd3225efc4e0964269ea24cc41c95862875d6
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 11:33:05 2021 +1000
+
+    button resizing
+
+commit 020b31784e8fe45fb4f317f896dee4609fede512
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 11:27:28 2021 +1000
+
+    button resizing and top button added; have begun deploying to netlify
+
+commit 46df51fc5c0bbbd7757ac4997b8944e69a6e07de
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 11:01:01 2021 +1000
+
+    more nav modifications to color and alignment
+
+commit 338e70b84fdcee0c10a8041a426c9bb301a17d83
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Fri Nov 5 10:21:58 2021 +1000
+
+    top and bottom navigation icons added
+
+commit 3482472545998f60e07e275a17e95ad2a85069e3
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 4 14:34:49 2021 +1000
+
+    header and footer mobile design done
+
+commit 0cdc596f441ac89a954ecd7c1a531006eb35a45d
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 4 13:48:34 2021 +1000
+
+    nav buttons
+
+commit 730544252935b46554842a70111f8d156efebb94
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 4 13:37:59 2021 +1000
+
+    added some text to index main content
+
+commit c84315910ecaab5f2b347b54567ac97477a1a2d9
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 4 13:17:40 2021 +1000
+
+    styled header with image and text aligned and added footer with copyright
+
+commit 30b177b9c15ea24673e487dc094267bac2405e77
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 4 12:03:13 2021 +1000
+
+    working on header alignment and layout of elements
+
+commit 9cedbc43ee97d90f492ca9bd88c37cdee149fdbf
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 4 11:29:47 2021 +1000
+
+    div containers aded to index.html to divide elements of the body
+
+commit 18cb84828da08fac10ed2c7186b4fa1aac1f6a4b
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 4 09:48:50 2021 +1000
+
+    header for index.html with an image and basic nevigation
+
+commit 1d1bcb9db777ba9eca7b17d211df19c00918dbe4
+Author: AnderDevitt <gcab022116@coderacademy.edu.au>
+Date:   Thu Nov 4 09:26:42 2021 +1000
+
+    created the initial files and basic structure
+
+commit 2303cdd4905df5f4ebdbb3c38b6a04f527783391
+Author: AnderDevitt <92442619+AnderDevitt@users.noreply.github.com>
+Date:   Sat Oct 30 10:05:32 2021 +1000
+
+    Initial commit
