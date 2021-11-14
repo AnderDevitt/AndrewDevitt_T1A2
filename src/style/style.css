@@ -193,6 +193,7 @@ width: 200px;
     flex-direction: row;
     justify-content: center;
     background-color: DodgerBlue; /*For error checking only - should not display!*/
+    min-height: 700px;
   }
 
   /*flexible blank space down the left and right sides of the screen on larger screens
@@ -216,6 +217,7 @@ width: 200px;
     flex-wrap: wrap;
     flex-grow: 5;
     max-width: 100%;
+    min-height: 60%;
   }
                                                            
  
@@ -233,6 +235,7 @@ width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 80%;
   }  
 
   /*No border around content area for blog and projects pages as each article will be bordered*/
@@ -505,7 +508,7 @@ width: 200px;
       display: flex;
       flex-direction: row;
       flex-basis: 100%;
-      min-height: 800px;
+      min-height: 700px;
       justify-content: center;
       background-color: DodgerBlue; /*For error checking only - should not display!*/
     }
@@ -538,7 +541,7 @@ width: 200px;
     margin: 15px;
     border: orange 4px solid;
     width: 90%;
-    min-height: 90%;
+    min-height: 80%;
     padding: 10px;
     display: flex;
     flex-direction: column;
