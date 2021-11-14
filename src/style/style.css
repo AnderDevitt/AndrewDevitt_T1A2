@@ -138,8 +138,8 @@ width: 200px;
          /*Changes between my name on index and page title other pages*/
          .page-title {
            flex-shrink: 1;
-           font-size: 3em;
-           color: khaki;
+           font-size: 4em;
+           color: #DBE8D4;
            font-family: 'Lobster', Georgia, Times, serif;
            
          }
@@ -147,7 +147,7 @@ width: 200px;
          /*Index page only*/
          .page-subtitle {
           flex-shrink: 1;
-          font-size: 2em;
+          font-size: 3em;
           color: khaki;
           font-family: 'Lobster', Georgia, Times, serif;
          }
