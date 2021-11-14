@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <!--Displays website title on browser tab-->
+        <title>Andrew Devitt Portfolio T1A2 - Blog 6/11/2021</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+        <!-- My stylesheet-->
+        <!--<link rel="stylesheet" href="frame_style.css">-->
+        <link rel="stylesheet" href="../src/style/style.css">
+
+        <!--Load the icon libraries for icons, fonts, hamburger menu-->
+        <!--Icons-->
+        <script src="https://kit.fontawesome.com/c0fb676b03.js" crossorigin="anonymous"></script>
+        <!--Hamburger menu-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Fonts for NAV-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--Fonts for H and P-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    </head>
+
+    <body>
+        <header name="top"><!--Arrow-button at the bottom returns user to here-->
+            <!--A container for positioning anything above the nav bar-->
+            <div class="top-space">
+                <h1 class="page-title">My blog</h1>
+            </div>
+            
+            <!--Top of page navigation: a horizontal nav bar for larger screens that shrinks to a hamburger menu on phones-->
+            <!--Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+            <div class="topnav" id="myTopnav">
+                <a href="../index.html" >Home</a>
+                <a href="about.html">About</a>
+                <a href="#projects.html">Projects</a>
+                <a href="blog_main.html">Blog</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+
+             <!--Javascript to run the hamburger menu: adds and removes the "responsive" class to top-nav when the user clicks on the hamburger menu icon-->
+            <!--Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+            <script> 
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+        </header>
+
+        <!--A flex container to arrange the page content into three columns-->
+        <div class="flex-container">
+            <!--Create adjustible blank space on the sides of the page on larger screens and disappear on phones-->    
+            <div class="blank-side-area"></div>
+                <!--The container to hold all EDITABLE sections and articles within-->
+                <div class="main-content-area">
+                    <!--Makes a container with a solid border to surround page content-->
+
+                    
+
+                    <!--PROJECTS AND BLOG PAGES: layout is different to other pages with each article bordered and page title above-->
+                    <section class="posts-projects">
+                        <h1 class="page-subtitle">Blog Post</h1>
+                        
+                        <br>
+                        <!--  EDIT BELOW HERE TO CHANGE CONTENTS BUT NOT PAGE STYLING AND LAYOUT  -->
+
+                    <!--Post for 2/11/2021-->
+                    <article class="card">                                
+                        <h1>earning Coding With Games</h1>
+                        <h2>Published: 06/11/2021</h2>
+                        <figure>
+                            <img src="../images/zombies_800.jpg" alt="Flexbox Zombies game">
+                            <!--<figcaption></figcaption>-->
+                        </figure>    
+
+                        <p>
+                            Some programming concepts are quite difficult to learn and the code syntax can take a very long time to memorize. 
+                            It's not uncommon for coders to refer to cheat-sheets for a long time after learning a new skill.
+                            This is where coding games can come in to save the day. An engaging game that mixes task and challenge types and 
+                            keeps you thinking can really make the necessary code repetition enjoyable while you practice.
+                        </p>
+                        <p>This week, I had fun getting to grips with <em>Flexbox</em> thanks to the amazing game <strong>Flexbox Zombies</strong>.</p>
+                        <h3>The good about Flexbox Zombies</h3>
+                        <ul>
+                            <li>An entertaining story over 12 chapters</li>
+                            <li>Stylish and atmospheric comic art and animation</li>
+                            <li>Starts off easy with the basics of <em>Flexbox</em> commands</li>
+                            <li>Each chapter introduces a new comand and its relevant syntax</li>
+                            <li>Makes repetitive practice of commands <strong>fun!</strong></li>
+                            <li>The final chapter challenges you to defeat the evil villain <em>without help or clues!</em> How much did you remember?</li>
+                        </ul>
+                        <h3>The bad about Flexbox Zombies</h3>
+                            <ul>
+                            <li>The last three levels do seem to have some errors.<em>Or maybe thats just me</em></li>
+                            <li>If you don't get it when it's free, it'll cost you $179</li>
+                        </ul>
+                        <p>Visit the <a href="https://mastery.games/flexboxzombies/" target="_blank">Flexbox Zombies</a> and check it out!</p>
+                    </article>
+
+                <!--  END OF EDITABLE CONTENT AREA  -->      
+                </section>
+                <!--Link to return user to Main Blog Page-->-->
+                <h2>Click <a href="../blog_main.html"> HERE </a> to return to the main blog page.</h2>                    
+            </div>
+        <div class="blank-side-area"></div>  
+    </div>
+
+    <!--the footer contains a secondary navigation, top button for large content pages, copyright info-->
+    <footer>
+        <!--Creates a button to return users t the top of the page without scrolling-->
+        <div class="up-button">
+            <a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a>      
+        </div>
+        <!--Creates icon buttons for a user to navigate to pages from the bottom of the screen-->
+        <div class="page-buttons">
+            <a class="bottom-nav" href="/index.html"><i class="fas fa-home fa-2x"></i></a>
+            <a  class="bottom-nav" href="../about.html"><i class="fas fa-user fa-2x"></i></a>
+            <a  class="bottom-nav" href="../projects.html"><i class="fas fa-briefcase fa-2x"></i></a>
+            <a  class="bottom-nav" href="../blog_main.html"><i class="fas fa-blog fa-2x"></i></a>
+            <a  class="bottom-nav" href="../contact.html"><i class="fas fa-address-book fa-2x"></i></a>
+        </div>
+        <!--Copyright information-->
+        <div>
+            <p>&#169; Andrew Devitt 2021. All rights reserved.</p>
+        </div> 
+    </footer>
+</body>
+</html>

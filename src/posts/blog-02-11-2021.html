@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <!--Displays website title on browser tab-->
+        <title>Andrew Devitt Portfolio T1A2 - Blog 01/11/2021</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+        <!-- My stylesheet-->
+        <!--<link rel="stylesheet" href="frame_style.css">-->
+        <link rel="stylesheet" href="../src/style/style.css">
+
+        <!--Load the icon libraries for icons, fonts, hamburger menu-->
+        <!--Icons-->
+        <script src="https://kit.fontawesome.com/c0fb676b03.js" crossorigin="anonymous"></script>
+        <!--Hamburger menu-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--Fonts for NAV-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--Fonts for H and P-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    </head>
+
+    <body>
+        <header name="top"><!--Arrow-button at the bottom returns user to here-->
+            <!--A container for positioning anything above the nav bar-->
+            <div class="top-space">
+                <h1 class="page-title">My blog</h1>
+            </div>
+            
+            <!--Top of page navigation: a horizontal nav bar for larger screens that shrinks to a hamburger menu on phones-->
+            <!--Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+            <div class="topnav" id="myTopnav">
+                <a href="../index.html" >Home</a>
+                <a href="about.html">About</a>
+                <a href="#projects.html">Projects</a>
+                <a href="blog_main.html">Blog</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+
+             <!--Javascript to run the hamburger menu: adds and removes the "responsive" class to top-nav when the user clicks on the hamburger menu icon-->
+            <!--Code source: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+            <script> 
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+        </header>
+
+        <!--A flex container to arrange the page content into three columns-->
+        <div class="flex-container">
+            <!--Create adjustible blank space on the sides of the page on larger screens and disappear on phones-->    
+            <div class="blank-side-area"></div>
+                <!--The container to hold all EDITABLE sections and articles within-->
+                <div class="main-content-area">
+                    <!--Makes a container with a solid border to surround page content-->
+
+                    
+
+                    <!--PROJECTS AND BLOG PAGES: layout is different to other pages with each article bordered and page title above-->
+                    <section class="posts-projects">
+                        <h1 class="page-subtitle">Blog Post</h1>
+                        
+                        <br>
+                        <!--  EDIT BELOW HERE TO CHANGE CONTENTS BUT NOT PAGE STYLING AND LAYOUT  -->
+
+                    <!--Post for 2/11/2021-->
+                    <article class="card">                                
+                        <h1>Mobile-first - save yourself some headaches!</h1>
+                        <h2>Published: 20/10/2021</h2>
+                        <figure>
+                            <img src="../images/mobile-first.jpg" alt="Image of a mobile wireframe">
+                            <!--<figcaption></figcaption>-->
+                        </figure>    
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </article>
+
+                <!--  END OF EDITABLE CONTENT AREA  -->      
+                </section>
+
+                      
+            </div>
+        <div class="blank-side-area"></div>  
+    </div>
+
+    <!--the footer contains a secondary navigation, top button for large content pages, copyright info-->
+    <footer>
+        <!--Creates a button to return users t the top of the page without scrolling-->
+        <div class="up-button">
+            <a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a>      
+        </div>
+        <!--Creates icon buttons for a user to navigate to pages from the bottom of the screen-->
+        <div class="page-buttons">
+            <a class="bottom-nav" href="/index.html"><i class="fas fa-home fa-2x"></i></a>
+            <a  class="bottom-nav" href="../about.html"><i class="fas fa-user fa-2x"></i></a>
+            <a  class="bottom-nav" href="../projects.html"><i class="fas fa-briefcase fa-2x"></i></a>
+            <a  class="bottom-nav" href="../blog_main.html"><i class="fas fa-blog fa-2x"></i></a>
+            <a  class="bottom-nav" href="../contact.html"><i class="fas fa-address-book fa-2x"></i></a>
+        </div>
+        <!--Copyright information-->
+        <div>
+            <p>&#169; Andrew Devitt 2021. All rights reserved.</p>
+        </div> 
+    </footer>
+</body>
+</html>
