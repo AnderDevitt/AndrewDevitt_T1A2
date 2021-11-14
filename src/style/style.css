@@ -127,7 +127,8 @@ width: 200px;
          .top-space img {
            flex-basis: 200px;
            margin: 15px;
-           flex: 1;
+           /*flex: 1;*/
+           flex-shrink: 1;
            margin: 10px;
            text-align: center;
          }
@@ -331,6 +332,7 @@ width: 200px;
          justify-content: center;
          align-items: center;
          margin: 10px;
+         flex-shrink: 1;
        }
 
        /*Colours the arrow-button*/
@@ -471,6 +473,7 @@ width: 200px;
   .content-image-left {
     width: 100%;
     display: block;
+    flex-shrink: 1;
   }
   p {
     font-size: 12;
