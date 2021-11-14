@@ -236,7 +236,6 @@ width: 200px;
   /*Solid border around whole content on home, about and contact pages*/
   .content-type-Solid {
     margin: 15px;
-    flex-basis: 70%;
     border: orange 4px solid;
     width: 90%;
     padding: 10px;
