@@ -242,6 +242,7 @@ width: 200px;
     display: flex;
     flex-direction: column;
   }  
+
   /*No border around content area for blog and projects pages as each article will be bordered*/
   .posts-projects {
     margin: 15px;
@@ -251,6 +252,7 @@ width: 200px;
     flex-direction: column;
   }  
 
+  /*container for links in Contact page and styling for icons and links*/
   .contacts {
       margin: 15px;
       width: 90%;
