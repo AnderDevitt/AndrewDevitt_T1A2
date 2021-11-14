@@ -533,7 +533,7 @@ width: 200px;
   It will help control the overall positioning of everything within it*/
   .main-content-area {
     background-color: #2E3445;
-    flex-basis: 70%;
+    flex-basis: 60%;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -541,5 +541,5 @@ width: 200px;
     flex-wrap: wrap;
     flex-grow: 1;
     max-width: 70%;
-    min-height: 70%
+    min-height: 60%
   }
