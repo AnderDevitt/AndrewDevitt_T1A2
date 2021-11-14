@@ -513,7 +513,8 @@ width: 200px;
       display: flex;
       flex-direction: row;
       flex-basis: 100%;
-      min-height: 70%;
+      min-height: 1000px;
+
       justify-content: center;
       background-color: DodgerBlue; /*For error checking only - should not display!*/
     }
@@ -540,4 +541,5 @@ width: 200px;
     flex-wrap: wrap;
     flex-grow: 1;
     max-width: 70%;
+    min-height: 70%
   }
