@@ -64,12 +64,6 @@
   display: table;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 /*Styling the images aligned to the center of a container*/
 .content-image-center {
   display: block;
@@ -552,4 +546,31 @@ width: 200px;
     display: flex;
     flex-direction: column;
   }  
+
+  header {
+    color: #DBE8D4;
+    background-color: #222733;
+    padding: 20px;
+    min-height: 20%;
+  }
+
+  /*Style space above the nav bar and arrange flex-items within*/
+  .top-space {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+  }
+
+  /*Styling for the footer area/container*/
+  footer {
+    color: #DBE8D4;
+    background-color: #222733;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 20%
+  }
 }
