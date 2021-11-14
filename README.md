@@ -3,6 +3,10 @@
 My portfolio website for Coder Academy Term 1 Assignment 2
 
 ### Link to deployed website: https://peaceful-cray-76ecab.netlify.app/
+Link to the main branch
+
+### Link to deployed website on secondary Git branch: https://jovial-khorana-c8f21d.netlify.app/index.html
+This demonstrates how the site appeared before I added the SHA integrity key to the index.html key. The SHA integrity (I tried 2 keys) stopped the CSS script on some browsers (Firefox for one) but allowed it to work with some loss on others.
 
 ### Link to my GitHub repo: https://github.com/AnderDevitt/AndrewDevitt_T1A2
 
