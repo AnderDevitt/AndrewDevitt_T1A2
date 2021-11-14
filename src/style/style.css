@@ -193,7 +193,7 @@ width: 200px;
     flex-direction: row;
     justify-content: center;
     background-color: DodgerBlue; /*For error checking only - should not display!*/
-    min-height: 700px;
+    min-height: 500px;
   }
 
   /*flexible blank space down the left and right sides of the screen on larger screens
